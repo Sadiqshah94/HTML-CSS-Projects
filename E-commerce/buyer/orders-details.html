@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Home - Jhoolaylaal</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--================================ [Bootstrap CSS] ========================================-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- ================================= [animation + sliders CSS] ========================================-->
+    <link rel="stylesheet" href="../css/custom-animation.css">
+    <link rel="stylesheet" href="../slick/slick/slick.css">
+    <link rel="stylesheet" href="../slick/slick/slick-theme.css">
+    <!-- <link rel="stylesheet" href="owl-carousel/dist/assets/owl.carousel.css">
+            <link rel="stylesheet" href="owl-carousel/dist/assets/owl.theme.default.css"> -->
+    <!-- ================================= [Main CSS] ========================================-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-ui.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../datatables/datatables.css">
+    <!-- ========================font awsome============================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header id="main-header">
+        <nav class="navbar navbar-expand navbar-dark bg-light text-light">
+            <div class="container max-width-container py-1">
+                <a class="navbar-brand" href="#">
+                    <span class="font-alaskan-regular f-34 text-black">jhooolylal</span>
+                </a>
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="dashboard-nav" id="navbarsExample07">
+                    <ul class="navbar-nav ml-auto align-items-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i data-feather="search"></i></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i data-feather="message-circle"></i></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link disabled" href="#">
+                                <i data-feather="bell"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown border-left pl-3 pr-4 px-05">
+                            <a class="nav-link dropdown-toggle   font-beVietnam-bold f-14" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Muhammad
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <img src="../images/user-default.jpeg" class="rounded-circle " width="50" height="50" alt="">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- ============================ [sidebar and shop-items] ============================-->
+    <section id="shop-items" class="section-space mb-140px">
+        <div class="container max-width-container">
+            <div class="row mb-5">
+                <div class="col-lg-2">
+                    <div class=" d-lg-none d-block"></div>
+                    <!-- <div class="heading d-lg-block d-none">
+                        <h1 class="font-beVietnam-semibold f-20">
+                            Filters
+                        </h1>
+                    </div> -->
+                    <div class="d-block d-lg-none">
+                        <div class="d-flex justify-content-between align-items-center mob-fil bg-fdfdfd p-2 ">
+                            <span>
+                                <button class="btn btn-primary pt-2 btn-red list-btn btn-green d-flex flex-column justify-content-between" data-toggle="collapse"
+                                    data-target="#filter-sidebar">
+                                    <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                            </span>
+                            <span><strong> pages</strong></span>
+                        </div>
+                    </div>
+                    <div id="filter-sidebar" class="content py-md-0 py-3  collapse d-lg-block pb-5   bg-white ">
+
+                        <ul class="list-unstyled mt-28 pt-4 ">
+                            <li class="mb-3">
+                                <a href="" class="a-link    font-beVietnam-semibold f-20">
+                                      Dashboard
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="" class="a-link active-red  font-beVietnam-semibold f-20">
+                                    Orders & Returns
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="" class="a-link  font-beVietnam-semibold f-20">
+                                    Reviews
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="" class="a-link  font-beVietnam-semibold f-20">
+                                    Wishlist
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="" class="a-link  font-beVietnam-semibold f-20">
+                                    Coupons
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="" class="a-link  font-beVietnam-semibold f-20">
+                                    Followed Stores
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- items -->
+                <div class="col-lg-10 col-md-12">
+                    <div class="d-flex justify-content-between w-100 align-items-center">
+                        <span class="head-dashboard">
+                            <h2 class="font-beVietnam-semibold f-24 mb-5"> Orders Details</h2>
+                        </span>
+                    </div>
+
+                    <!-- order Info  -->
+                    <div class="order-info d-md-flex">
+                        <div class="col-md-6 px-md-0  text-md-left text-center">
+                            <h2 class="font-beVietnam-semibold f-20">
+                                Order # AUX367469
+                            </h2>
+                            <p class="font-beVietnam-medium f-16 pb-0">
+                                Placed on 02/04/2021, 12:00 AM
+                            </p>
+                        </div>
+                        <div class="col-md-6  text-md-right text-center">
+                            <h2 class="font-beVietnam-semibold f-20">
+                                Total Amount: Rs 8,699
+                            </h2>
+                            <p class="font-beVietnam-medium f-16 pb-0">
+                                <span class="mr-2">TOD: 07 Days</span>
+                                <span class="mr-2">Time left: 03 Days</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- order Info end -->
+                    <!-- progress order -->
+                    <div class="progress-order   col-12">
+                        <ul class="Container-progessbar">
+                            <li class="complete">Processing</li>
+                            <li class="Inprogress">Shipped</li>
+                            <li class="">Delivered</li>
+                            <li class="">Completed</li>
+                        </ul>
+                    </div>
+                    <!-- progress order end -->
+
+                    <div class="card rounded-3 shadow w-100 mb-5">
+                        <div id="countdown">
+                            <ul class="list-unstyled text-center">
+                                <li class="text-red"><span id="days"></span> days</li>
+                                <li><span id="hours"></span>Hours</li>
+                                <li><span id="minutes"></span>Minutes</li>
+                                <li><span id="seconds"></span>Seconds</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- order details body -->
+                    <div class="cart-side orders-detail mt-5">
+                        <div class="cart-heading ">
+                            <div class=" d-flex  align-items-center">
+                                <div class="cancel  mr-2 col-6 font-beVietnam-semibold f-16">
+                                    Items
+                                </div>
+
+                                <div class=" col-6 d-flex  ">
+
+                                    <div class="price col">
+                                        <p class=" f-16 m-0 font-beVietnam-semibold f-16">Cost</p>
+                                    </div>
+                                    <div class="font-beVietnam-semibold f-16 col">
+                                        Shipped
+                                    </div>
+
+                                    <div class="font-beVietnam-semibold f-16 col">
+                                        Qty
+                                    </div>
+
+                                    <div class="Total col">
+                                        <p class=" f-16 m-0   font-beVietnam-semibold f-16">Total</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- orders-details -->
+                        <div class="orders-details">
+                            <ul class="cart__list list-unstyled">
+
+                                <li class="cart__list-item d-md-flex  align-items-center">
+                                    <div class="cart-part d-md-flex  align-items-center col-md-6 mr-2">
+
+                                        <div class="cart__profile d-flex align-items-center mb-2 mb-md-0">
+                                            <img src="../images/pdc-10.png" alt="" class="img-fluid mx-1">
+                                            <p class="font-beVietnam-medium f-16 mb-0 ml-2">
+                                                Red Chilies - linen shirt for women
+                                                <span class="font-beVietnam-medium f-16 mb-0  d-block">by -
+                                                    <a href="" class="text-red"> Flare.Crafts</a>
+                                                </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="cart-part cart-part-2  col-md-6 d-flex">
+
+                                        <div class="price   col">
+                                            <p class="font-beVietnam-medium f-16 mb-0 ">Rs 999</p>
+                                        </div>
+                                        <div class="price col">
+                                            <p class="font-beVietnam-medium f-16 mb-0 ">Rs 150</p>
+                                        </div>
+                                        <div class="quantity-counter col">
+                                            × 1
+                                        </div>
+                                        <div class="Total col">
+                                            <p class="px-2 f-20 font-beVietnam-medium m-0 d-none card-hidden-heading">Total:</p>
+                                            <p class="font-beVietnam-medium f-16 mb-0 ">Rs 999</p>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                        <!-- orders-details end -->
+
+                        <!-- Notes -->
+                        <div class="notes px-md-4 mt-5">
+                            <h2 class="font-beVietnam-semibold f-20 mb-3">
+                                Notes
+                            </h2>
+                            <p class="font-beVietnam-medium f-16 mb-1">
+                                <span class="mr-1">02/04/2021, 12:00 AM:</span> Your order has been shipped via TCS, and order tracking number is BRL3264782.
+                            </p>
+                            <p class="font-beVietnam-medium f-16  mb-1">
+                                <span class="mr-1">02/04/2021, 12:00 AM:</span> Cheers! Your order is placed. Order # is AUX367469.
+                            </p>
+                            <p class="font-beVietnam-medium f-16 mb-1">
+                                <span class="mr-1">02/04/2021, 12:00 AM:</span> Your order has been shipped via TCS, and order tracking number is BRL3264782.
+                            </p>
+                        </div>
+                        <!-- Notes End -->
+
+                        <!-- Footer body -->
+                        <div class="d-md-flex  mt-5 pt-3 align-items-center justify-content-between">
+                            <div>
+                                <button class="btn btn-white">Cancel</button>
+                            </div>
+                            <div>
+                                <span>
+                                     <a href="" class="text-red f-14 font-beVietnam-semibold mr-2">TRACK MY ORDER</a>
+                                </span>
+                                <span>
+                                    <button class="btn btn-red px-btn">Chat</button>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Footer end -->
+                    </div>
+                    <!-- order details body end-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================ [Footer] ============================-->
+
+    <footer>
+        <section class="copyright bg-f5 footer-bottom  section-space">
+            <div class="container max-width-container py-2 ">
+                <div class="d-md-flex align-items-center justify-content-between  foot-jhool">
+
+                    <span class="font-alaskan-regular f-34 text-black">jhooolylal</span>
+                    <div class=" pt-3 ">
+                        <ul class="list-unstyled ">
+                            <li class="d-inline-block "><a href=" " class=" mr-3 font-beVietnam-semibold a-link text-black">PKR</a></li>
+                            <li class="d-inline-block "><a href=" " class=" mr-3 font-beVietnam-semibold a-link text-black">English</a></li>
+                            <li class="d-inline-block "><a href=" " class=" font-beVietnam-semibold  a-link text-black">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- ============================ [JQuery, Bootstrap 4 CSS] ============================-->
+    <script src="../js/jquery.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="../js/bootstrap.min.js "></script>
+    <script src="../js/fontawsome.js "></script>
+    <script src="../js/jqueryui.js" type="text/javascript"></script>
+    <!-- ================================= [Sliders.js] ========================================-->
+    <script src="../slick/slick/slick.js "></script>
+    <!-- <script src="owl-carousel/dist/owl.carousel.js "></script> -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="../datatables/datatables.js"></script>
+    <!-- ================================= [Custom.js] ========================================-->
+    <script src="../js/custom.js "></script>
+    <script>
+        feather.replace()
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#table_id').DataTable();
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+
+            $('.dataTables_filter , .dataTables_length').wrapAll('<div class="d-md-flex w-100 wraped-headtable justify-content-between py-3 px-4 bg-f5 b-radius-8"><div class="border-bottom w-100 pb-2"></div></div>');
+            $("input[type=search]").attr("placeholder", "Type Something...");
+        });
+    </script>
+    <script>
+        (function() {
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+
+            let birthday = "Sep 30, 2021 00:00:00",
+                countDown = new Date(birthday).getTime(),
+                x = setInterval(function() {
+
+                    let now = new Date().getTime(),
+                        distance = countDown - now;
+
+                    document.getElementById("days").innerText = Math.floor(distance / (day)),
+                        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+                    //do something later when date is reached
+                    if (distance < 0) {
+                        let headline = document.getElementById("headline"),
+                            countdown = document.getElementById("countdown"),
+                            content = document.getElementById("content");
+
+                        headline.innerText = "It's my birthday!";
+                        countdown.style.display = "none";
+                        content.style.display = "block";
+
+                        clearInterval(x);
+                    }
+                    //seconds
+                }, 0)
+        }());
+    </script>
+
+</body>
+
+</html>

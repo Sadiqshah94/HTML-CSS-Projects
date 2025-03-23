@@ -1,0 +1,121 @@
+
+@font-face {
+    font-family:SEGOEUI;
+    src: url(assests/fonts/Segoe-UI-new.ttf);
+}
+@font-face {
+    font-family:SEGOEUIBlack;
+    src: url(assests/fonts/Segoe-UI-Black.ttf);
+}
+@font-face {
+    font-family:SEGOEUISemibold;
+    src: url(assests/fonts/Segoe-UI-Semibold.ttf);
+}
+@font-face {
+    font-family:SEGOEUISemilight;
+    src: url(assests/fonts/Segoe-UI-Semilight.ttf);
+}
+@font-face {
+    font-family:SEGOEUILight;
+    src: url(assests/fonts/Segoe-UI-Light.ttf);
+}
+
+body{
+    font-family:SEGOEUI;
+    background-color: #d6dadc;
+}
+.bg {
+    background-color: #00a884;
+    height: 230px;
+}
+.whtsapp_icon {
+    width: 73%;
+    margin: 25px auto;
+}
+.whtsapp_icon ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.whtsapp_icon ul li span {
+    margin-left: 12px;
+    font-family:SEGOEUISemibold;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+.inner_div {
+    width: 60% !important;
+    margin: 5px auto;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 17px 50px 0 rgb(11 20 26 / 19%), 0 12px 15px 0 rgb(11 20 26 / 24%);
+}
+.inner_row{
+    padding: 64px 50px 110px;
+}
+.container.inner_div {
+    margin-top: -130px;
+    margin-bottom: 100px;
+    border-radius: 3px;
+}
+.main_heading h4 {
+    font-family:SEGOEUILight;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: normal;
+    color: #41525d;
+}
+.qr_img {
+    text-align: center;
+}
+.qr_img img {
+    width: 88%;
+}
+.lists ol li b{
+    font-family:SEGOEUISemibold;
+}
+.lists ol li {
+    /* font-size: 20px; */
+    font-size: 18px;
+    line-height: 48px;
+}
+.lists {
+    margin-top: 40px;
+}
+.lists ol {
+    padding: 15px;
+}
+.keep_login{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.keep_login input[type="checkbox"] {
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.main_heading .help a {
+    color: #008069;
+    font-family: SEGOEUISemilight;
+    font-size: 14px;
+    text-decoration: none;
+}
+.main_heading .help {
+    margin-top: 45px;
+}
+.video_wrapper_row{
+    background-color: #f9f9fa;
+    color: #f9f9fa;
+    padding: 72px 60px;
+    margin-top: -40px;
+    height: 410px;
+}
+.video_wrapper{
+    text-align: center;
+}
+
+.video_wrapper img {
+    width: 65%;
+}
