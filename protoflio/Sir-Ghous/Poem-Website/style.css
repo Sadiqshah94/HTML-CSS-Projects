@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Kbzipadeedoodah;
+    src: url(assests/fonts/kbzipadeedoodah-font/Kbzipadeedoodah-YG3j.ttf);
+}
+@font-face {
+    font-family: Righteous;
+    src: url(assests/fonts/Righteous/Righteous-Regular.ttf);
+}
+@font-face {
+    font-family: Satisfy;
+    src: url(assests/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+    font-family: Skranji;
+
+    src: url(assests/fonts/Skranji/Skranji-Bold.ttf);
+}
+@font-face {
+    font-family: SweetCherryFree;
+    src: url(assests/fonts/sweet-cherry-font/SweetCherryFree-K7MZo.otf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(assests/fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(assests/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(assests/fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: BubblegumSans;
+    src: url(assests/fonts/bubblegum-sans_2/BubblegumSans-Regular.ttf);
+}
+p{
+    font-family: Roboto-Regular;
+}
+.logo {
+    margin-top: 8px;
+    text-align: center;
+}
+.navigation{
+    background-color: #432c81;
+}
+.navigation ul {
+    display: flex;
+    justify-content: center;
+}
+.navigation ul li {
+    list-style-type: none;
+    width: 150px;
+    text-align: center;
+}
+.navigation ul li a{
+    color: #fff;
+    display: block;
+    padding: 24px 45px;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: Roboto-Regular;
+    font-weight: 400;
+}
+
+.navigation ul .active{
+    background: #3c79ba;
+}
+.navigation ul li:hover{
+background-color: #523996;
+}
+.banner{
+    padding-top: 45px;
+    background-color: #52b4d4;
+    background-image: url(assests/img/childrens-pattern.png);
+    background-size: cover;
+    width: 100%;
+    /* height: 200px; */
+    background-repeat: no-repeat;
+}
+.banner .child_img img{
+    width: 100%;
+}
+.child_img {
+    margin-top: -70px;
+    width: 40%;
+}
+.welcome_text{
+    width: 60%;
+}
+
+.welcome_text {
+    padding: 40px 20px;
+}
+section.banner {
+    display: flex;
+    justify-content: space-between;
+}
+.welcome_text h1 {
+    font-size: 50px;
+    font-family: Skranji;
+    color: #fff;
+}
+.welcome_text p {
+    font-size: 18px;
+    font-family: Roboto-Regular;
+    line-height: 35px;
+    color: #ddd;
+}
+section.poems_types {
+    display: flex;
+    padding: 50px;
+}
+.form_wrapper_main {
+    width: 25%;
+    margin-top: 120px;
+}
+.poems{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.poems .box {
+    padding: 8px 25px 10px;
+    text-align: center;
+    /* height: 180px; */
+    margin: 50px 30px;
+    width: 20%;
+}
+.poems .p_img {
+    margin-top: -75px;
+    margin-bottom: 8px
+}
+.poems .p_title h4 {
+    color: #fff;
+    font-family: BubblegumSans;
+    font-size: 22px;
+}
+.sub_title p {
+    font-size: 16px;
+    color: #fff;
+}
+.p_title {
+    margin-top: 15px;
+}
+.sub_title {
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+.c1{
+    background: #e54c67;
+}
+.c2{
+    background-color: #4a619a;
+}
+.c3{
+    background-color: #1ca9e9;
+}
+.c4{
+    background-color: #9acd30;
+}
+.c5{
+    background-color: #e0e14b;
+}
+.c6{
+    background-color: #159294;
+}
+
+.form_wrapper {
+    background-color: #277087;
+    padding: 30px 30px;
+}
+.Feed_form h2{
+    font-family: BubblegumSans;
+    margin-bottom: 20px;
+}
+.Feed_form p {
+    color: #fff;
+    line-height: 26px;
+}
+form input[type="email"] {
+    width: 77%;
+    padding: 10px 27px;
+    margin-top: 26px;
+}
+form input[type="email"]::placeholder{
+    font-size: 14px;
+    color: rgb(187, 186, 186);
+}
+form input[type=submit] {
+    background-color: #1bc7f2;
+    color: #fff;
+    border-color: #00A5CF;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 27px;
+    margin-top: 12px;
+    width: 100%;
+}
+.margin{
+    margin-top: 30px;
+}
+.footer{
+    margin: 45px 0 0;
+    background-color: #43327d;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+
+/* poem page  */
+.pt{
+    padding: 18px;
+}
+.poems_box{
+    width: 80%;
+    padding-top: 0px;
+}
+.poems_box .box {
+    width: 14%;
+}
+.poems_box .box {
+    padding: 8px 22px 0px;
+    margin: 44px 28px;
+}
+
+.poems_box  .p_img{
+    margin-top: 0px;
+    text-align: center;
+}
+.poems_box .p_img img {
+    width: 40%;
+    margin-top: 18px;
+}
+.poems_box .sub_title {
+    padding-bottom: 10px;
+}
+.poem_form{
+    width: 20%;
+}
+.heading-main {
+    width: 88%;
+    margin: 41px auto -60px auto;
+}
+.heading-main h2{
+    font-family: BubblegumSans;
+    font-size: 32px;
+    font-weight: 400;
+}
+.heading-main p{
+    font-size: 16px;
+}
+.poem_form form input[type="email"] {
+    width: 70%;
+}
+.poem_form h2 {
+    font-size: 23px;
+}
+.poem_heading ul {
+    margin-top: 20px;
+}
+.poem_heading ul li{
+    line-height: 20px;
+    font-family: Roboto-Regular;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.text_poem p {
+    line-height: 30px;
+}
+.poems_box a{
+    text-decoration: none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeCodecamp Survey Form</title>
+</head>
+<body>
+    <h1  align="center">FreeCodecamp Survey Form</h1>
+   <h4 align="center">Thank you for taking the time to help us improve the platform</h4>
+   <form  action="submitted.html" >
+
+    <table align="center" cellpadding="10" style="border:1px solid #000">
+        <tr>
+            <td> <label for="name">Name: </label><br>
+            <input type="text" placeholder="Enter name here" required></td>
+        </tr>
+      
+        <tr>
+            <td> <label for="name">Email: </label> </td>
+            <td><input type="email" placeholder="Enter email here" required></td>
+        </tr>
+
+        <tr>
+            <td>
+                 <label for="number">On a scale of 1-10.how good was it?</label></td>
+                <td><input type="number" maxlength="10"  placeholder="Enter a number between 1 to 10" required></td>
+                </tr>
+
+        <tr>
+            <td>Where did it happen?</td>
+            <td>
+                <select>
+                    <option value="At home">At home</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="IQ">At what time of day did it happen? </label></td>
+            <td><input type="radio" name="gender">Morning<br/>
+                <input type="radio" name="gender">Afternoon<br/>
+                <input type="radio" name="gender">Evening<br/><br/></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="Apply">What emotions did you experience? <br>(Select all that apply) </td>
+            <td>
+                <input type="checkbox"> Excited<br/>
+                <input type="checkbox"> Humbled<br/>
+                <input type="checkbox"> Elate<br/>
+                <input type="checkbox">Loved<br/>
+                <input type="checkbox">Enthusastic<br/>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="50 words">Please describe your positive experience</label></td>
+            <td> <textarea placeholder="Enter Text Here...." cols="50" rows="5"></textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="5"> <div align="center"><input type="submit"></div></td>
+        </tr>
+    </table>
+    </form>
+            </body>
+            </html>

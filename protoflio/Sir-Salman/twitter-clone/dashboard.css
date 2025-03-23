@@ -1,0 +1,528 @@
+@import url(style.css);
+body{
+font-family: "Archivo";
+}
+.inner {
+display: flex;
+align-items: center;
+vertical-align: middle;
+}
+.custom_width {
+max-width: 1300px;
+}
+div#v-pills-tabContent {
+border: 1.5px solid #eff3f4;
+border-top: none;
+height: 1400px;
+}
+.nav a {
+width: 200px;
+list-style-type: none;
+/* display: flex; */
+align-items: center;
+/* line-height: 10px; */
+margin-bottom: 20px
+}
+.nav  a span svg {
+width: 26px;
+margin-right: 10px;
+}
+.nav span {
+/* border: 1px solid; */
+border-radius: 50px;
+text-decoration: none;
+font-size: 19px;
+color: #000000db;
+font-family: "Archivo-Regular";
+padding: 16px 23px;
+line-height: 42px;
+}
+.nav a{
+text-decoration: none;
+height: 30px;
+}
+.nav span:hover{
+background-color: #ddd;
+}
+li.tweet a {
+display: flex;
+/* border: 1px solid; */
+width: 50px;
+height: 50px;
+align-items: center;
+}
+.tweet a:hover {
+background: #509ef234 !important;
+}
+.tweet {
+margin-bottom: 15px !important;
+margin-left: 8px;
+}
+li.tweet a img {
+width: 30px;
+margin-left: -5px;
+}
+.custom_width .col-md-3{
+max-width: 21%;
+}
+.col_wrapper {
+position: fixed;
+}
+.change-my-color {
+color: rgb(29, 155, 240) !important;
+}
+.tweet_button{
+width: 200px;
+}
+.tweet_button a {
+text-align: center;
+background-color: rgb(29, 155, 240);
+border-radius: 60px;
+padding: 25px 10px;
+color: #fff;
+display: block;
+font-family: "Archivo-Regular";
+font-size: 16px;
+line-height: 0px;
+font-weight: 600;
+text-decoration: none;
+letter-spacing: 1px;
+width: 230px;
+margin-left: 15px;
+}
+.user_id ul {
+display: flex;
+align-items: center;
+padding: 4px 4px 10px 4px;
+border-radius: 60px;
+line-height: 20px;
+padding: 5px 10px;
+cursor: pointer;
+}
+.user_id ul:hover{
+background-color: #ddd;
+}
+.user_id ul li {
+font-family: "Archivo-Medium";
+font-size: 15px;
+font-weight: 500;
+list-style-type: none;
+}
+.user_id ul li a{
+color: #000000bd;
+}
+.user_id ul {
+display: flex;
+align-items: center;
+}
+.user_id .dp img {
+width: 42px;
+height: 42px;
+border-radius: 60%;
+}
+.user_id .dp {
+display: flex;
+align-items: center;
+border-radius: 60px;
+padding: 8px 12px;
+margin-top: -6px;
+}
+.user_id li.icon i {
+margin-left: 15px;
+}
+
+
+
+.tweeter_icon {
+    padding: 16px 23px;
+}
+
+.tweeter_icon a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    padding: 4px 4px;
+    line-height: 35px;
+    text-align: center;
+    transition: .2s ease-in-out;
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+.tweeter_icon a:hover {
+    background-color: #4f9cf030;
+}
+.tweeter_icon img{
+    width: 26px;
+}
+div#v-pills-tab {
+    margin-top: -15px;
+}
+
+/* tabs  */
+.header_home {
+    position: fixed;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    height: 53px;
+    z-index: 9999;
+   
+}
+.text_header {
+    width: 95%;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.text_header h4 {
+    font-family: "Archivo-SemiBold";
+    font-size: 20px;
+}
+.star svg {
+    width: 22px;
+}
+.content {
+    position: absolute;
+    top: 5%;
+    width: 95%;
+}
+.post {
+    /* border-left: 1.5px solid #eff3f4;
+    border-right: 1.5px solid #eff3f4; */
+    /* border-top: 1.5px solid #eff3f4; */
+    padding-bottom: 15px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 15px 10px 0px 10px;
+}
+.dp_img img {
+    width: 48px;
+    height: 48px;
+    border-radius: 60%;
+}
+.dp_img {
+    width: 10%;
+    text-align: center;
+}
+.post_area {
+    width: 90%;
+}
+.post_area input {
+    width: 95%;
+    border: none;
+    padding: 5px;
+    font-family: "Archivo-Regular";
+    font-size: 18px;
+    margin-left: 5px;
+    background: transparent;
+}
+.post_area input:focus{
+    outline: none;
+}
+.post_area input::placeholder{
+    font-size: 20px;
+}
+.emojis{
+    margin-left: 18px;
+}
+
+.emojis ul li a svg {
+    width: 20px;
+    margin-top: 8px;
+}
+.emojis ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: -3px;
+}
+.emoji_section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 15px;
+    height: 40px;
+}
+.emojis,.tweet_buttons {
+    width: 50%;
+}
+.tweet_buttons {
+    text-align: right;
+}
+.tweet_buttons a {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #8ecdf8;
+    color: #fff;
+    text-decoration: none;
+}
+.no_of_tweets {
+    text-align: center;
+    padding: 10px 15px;
+    height: 50px;
+    line-height: 30px;
+    border-top: 1.5px solid #eff3f4;
+
+    cursor: pointer;
+   
+}
+.no_of_tweets:hover{
+    background-color: #eff1f1;
+    transition: .2s ease-in-out;
+}
+.no_of_tweets a {
+    color: #509ef2;
+    font-family: "Archivo-Regular";
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+}
+.emojis a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 60px;
+}
+.emojis a:hover{
+    background-color: #4f9cf030;
+    transition: .2s linear;
+}
+
+.tweets_box{
+    width: 100%;
+    /* height: 300px; */
+    border-top: 1.5px solid #eff3f4;
+    border-bottom: 1.5px solid #eff3f4;
+
+}
+.post_info {
+    display: flex;
+    padding: 10px 15px;
+}
+.pic_post
+{
+    width: 10%;
+}
+.post_name{
+    width: 80%;
+
+}
+.dots {
+    width: 10%;
+    text-align: right;
+}
+.dots i{
+    font-size: 18px;
+    color: rgb(83, 100, 113);
+}
+.post_name ul li {
+    display: inline-block;
+}
+
+.post_name ul li a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+.post_name p a {
+    font-family: 'Archivo-Regular';
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+.pic_post img {
+    border-radius: 60%;
+}
+a.auth {
+    font-family: 'Archivo-Regular';
+    color: #000;
+    font-weight: 500;
+}
+.auth:hover{
+    text-decoration: underline;
+}
+a.auth1 {
+    color: rgb(83, 100, 113);
+    font-family: 'Archivo-Medium';
+    font-size: 14px;
+}
+
+.post_content {
+    width: 95%;
+    margin: 0 auto;
+}
+.post_content p {
+    font-family: 'Archivo-Medium';
+    font-size: 15px;
+    padding: 0px 40px;
+}
+.gallery {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.img_1 {
+    width: 50%;
+}
+.img_1 img{
+    margin: 5px;
+}
+.img_1 img {
+    width: 100%;
+    margin: 5px;
+    border-left: 2px solid #fff;
+}
+.img_1.img1 img {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.img_1.mg2 img {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.icons_social ul li a svg {
+    width: 20px;
+    margin-right: 15px;
+}
+.icons_social ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.icons_social ul li{
+    list-style: none;
+}
+.icons_social ul li a {
+    list-style: none;
+    font-family: 'Archivo-Regular';
+    color: rgb(83, 100, 113);
+    font-size: 14px;
+    text-decoration: none;
+}
+.aBC p {
+    text-align: right;
+    font-weight: 600;
+    font-size: 17px;
+}
+.img_custom{
+    width: 100%;
+}
+.img_custom img{
+    border-radius: 10px;
+}
+.para p {
+    padding: 0px;
+}
+.right_div{
+    width: 50%;
+}
+.input_box svg {
+    width: 20px;
+}
+.input_box {
+    width: 55%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    background-color: rgb(239 243 242 / 1);
+}
+.input_box input {
+    width: 85%;
+    border: none;
+    margin-left: 10px;
+    background-color: transparent;
+    font-family: 'Archivo-Medium';
+ 
+}
+.input_box input::placeholder{
+    font-size: 15px;
+}
+
+.input_box input:focus{
+    outline: none;
+}
+.trends_of_you {
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    width: 350px;
+    background: #eff3f2;
+    border-radius: 10px;
+}
+
+.trends ul li {
+    padding: 14px 18px;
+    list-style: none;
+    font-family: 'Archivo-Medium';
+}
+.trends_of_you h4 {
+    font-family: "Archivo-Bold";
+    font-size: 20px;
+    padding: 14px 18px;
+}
+span.Trend,.no {
+    font-size: 14px;
+    color: rgb(83, 100, 113);
+}
+.trends ul li a {
+    font-family: 'Archivo-SemiBold';
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+.trends ul li:hover{
+    background: rgb(230, 232, 232);
+}
+
+.explore .trends_of_you {
+    position: relative;
+    top: 127%;
+    left: 0%;
+    width: 618px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+svg.r-18jsvk2.r-4qtqp9.r-yyyyoo.r-z80fyv.r-dnmrzs.r-bnwqim.r-1plcrui.r-lrvibr.r-19wmn03 {
+    width: 22px;
+}
+.explore {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.explore .input_box{
+    width: 80%;
+    margin: 0 auto;
+}
+.icon_box{
+    width: 20%;
+}
+.explore ul li:hover{
+    background-color: rgb(230 232 232 / 45%);
+}
+
+@media screen and (max-width:1024px) {
+    .pic_post img {
+        border-radius: 58%;
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .nav span{
+        font-size: 16px 0px !important;
+    }
+    .header_home {
+        position: fixed;
+        width: 100%;   
+}
+.header_home {
+    position: fixed;
+    width: 36%;
+}
+}

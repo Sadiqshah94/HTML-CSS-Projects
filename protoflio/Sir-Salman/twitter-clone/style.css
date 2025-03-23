@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Archivo";
+    src: url("assests/fonts/Archivo/Archivo-VariableFont_wdth.html");
+  }
+  @font-face {
+    font-family: "Archivo-Bold";
+    src: url("assests/fonts/Archivo/ArchivoBlack-Regular.ttf");
+  
+  }
+
+  @font-face {
+    font-family: "Archivo-Semi-Bold";
+    src: url("assests/fonts/Archivo/Archivo-Semi-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Archivo-Medium";
+    src: url("assests/fonts/Archivo/Archivo-Medium.ttf");
+  
+  }
+  @font-face {
+    font-family: "Archivo-Regular";
+    src: url("assests/fonts/Archivo/Archivo-Regular.ttf");
+  
+  }
+  @font-face {
+    font-family: "Archivo-SemiBold";
+    src: url("assests/fonts/Archivo/Archivo-SemiBold.ttf");
+  
+  }
+
+
+.twiiter_bg {
+    background-image: url(assests/img/lohp_en_1302x955.png);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    max-width: 53%;
+}
+body{
+    font-family: "Archivo";
+}
+
+.bg_img {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.bg_img img {
+    width: 350px;
+}
+
+.twitter-icon {
+    margin-top: 36px;
+}
+.twitter-icon img {
+    width: 7%;
+}
+.form_authentications {
+    margin: 16px 25px;
+}
+.form_authentications .heading h1 {
+    font-family: "Archivo-Bold";
+    font-size: 65px;
+    letter-spacing: 1px;
+}
+.form_authentications .heading h3 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    margin-top: 36px;
+}
+.heading {
+    margin-top: 55px;
+}
+.authentication{
+    margin-top: 40px;
+}
+.authentication .google,
+.authentication .apple,
+.new_account {
+    width: 55%;
+    border: 1px solid #000;
+    padding: 8px 10px;
+    border-radius: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid #dadce0;
+    color: #3c4043;
+}
+.authentication a{
+  display: block;
+  text-decoration: none;
+  color: #3c4043;
+  font-family: "Archivo-Regular";
+
+}
+.authentication span {
+    margin-right: 7px;
+}
+.apple a {
+    color: #000;
+    font-weight: 600;
+}
+.authentication img {
+    width: 6%;
+    margin-top: -2px
+}
+.authentication p {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #dadce0;
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .authentication p span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+ .orline{
+    width: 52%;
+    margin-top: 20px;
+    font-family: "Archivo-Medium";
+}
+.policy {
+    width: 52%;
+}
+.policy p {
+    font-size: 11px;
+    font-family: 'Prompt';
+}
+ .number{
+    background-color: rgb(29, 155, 240);
+    padding-left: 16px;
+    padding-right: 16px;
+ }
+ .apple.number a {
+    color: #fff;
+    font-size: 16px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Archivo-Medium";
+    display: block;
+    cursor: pointer;
+}
+.apple:hover {
+    
+    background: rgb(230 230 230);
+}
+
+.policy a {
+    color: #1d9bf0;
+    text-decoration: none;
+}
+.policy a:hover{
+    text-decoration: underline;
+}
+.alreadY_account{
+    margin-top: 50px;
+}
+.alreadY_account h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    /* font-family: "Archivo"; */
+}
+.new_account a{
+    color: #1d9bf0;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Archivo-Regular";
+    cursor: pointer;
+    display: block;
+}
+.apple.new_account:hover,.google:hover {
+    background: rgb(232 245 253);
+}
+.apple.number:hover {
+    background: #468cd8;
+}
+.menu {
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.menu ul{
+    text-align: center;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 8px;
+}
+.menu ul li a, .menu ul li {
+    text-decoration: none;
+    color: rgb(83, 100, 113);
+    font-size: 13px;
+    font-weight: 100;
+    font-family: 'Prompt', sans-serif;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    /* border-bottom: 1px solid rgb(83, 100, 113); */
+}
+.row_tw_img{
+    display:none;
+}
+.menu a {
+    font-family: 'Archivo-Medium';
+    margin-right: 10px;
+}
+
+@media only screen and (max-width:1024px)
+{
+.twiiter_bg {
+    max-width: 36%;
+    height: auto;
+}
+.form_authentications .heading h1 {
+    font-size: 48px;
+}
+.authentication .google, .authentication .apple, .new_account,.orline{
+    width: 78%;
+}
+}
+@media only screen and (max-width:992px)
+{
+    .twiiter_bg{
+        display: none;
+    }
+    .form_authentications .heading h1 {
+        font-family: "Archivo-Bold";
+        font-size: 60px;
+        letter-spacing: 1px;
+        width: 200px;
+    }
+    .form_authentications {
+        margin: 4px 60px;
+    }
+    .form_authentications {
+        margin: 30px 0px 40px 90px;
+    }
+    .row_tw_img{
+        display: block;
+    }
+    .row_tw_img img{
+        width: 100%;
+       
+    }
+   
+}
+@media only screen and (max-width:425px)
+{
+.form_authentications .heading h1 {
+   
+    font-size: 40px;
+}
+.form_authentications .heading h3 {
+    font-size: 25px;
+    margin-top: 0px;
+}
+.twitter-icon{
+    margin-top: 0;
+}
+.form_authentications {
+    margin: 15px 0px 9px 0px;
+}
+.heading {
+    margin-top: 30px;
+}
+.apple.number a {
+    font-size: 14px;
+}
+.policy {
+    width: 70%;
+}
+.alreadY_account {
+    margin-top: 20px;
+}
+.menu a {
+    font-family: 'Archivo-Regular';
+    font-size: 14px;
+}
+.alreadY_account h4,.new_account a{
+    font-size: 14px;
+}
+.authentication a {
+    font-size: 14px;
+}
+.twitter-icon img {
+    width: 10%;
+}
+.row_tw_img img {
+    width: 100%;
+    height: 280px;
+}
+
+.apple.number a {
+    font-size: 12px;
+}
+
+}
+
+@media screen and (max-width:320px) {
+    .form_authentications .heading h1 {
+        font-size: 30px;
+    }
+    
+    .form_authentications .heading h3 {
+        font-size: 22px; 
+    }
+    .apple.number a {
+        font-size: 11px;
+    }
+    .row_tw_img img {
+        
+        height: 190px;
+    }
+
+
+}
+

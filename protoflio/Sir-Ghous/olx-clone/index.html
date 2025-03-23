@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX - Buy and Sell for free anywhere in Pakistan with OLX online classifieds</title>
+    <link rel="icon" type="image/png" href="assests/olx-favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="mob_area">
+
+    
+    <div class="mob_nav">
+
+        
+
+        <div class="logo_icons">
+            <div class="dropdown custom_dropdown">
+                <button class="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button">Action</button>
+                  <button class="dropdown-item" type="button">Another action</button>
+                  <button class="dropdown-item" type="button">Something else here</button>
+                </div>
+              </div>
+              </div>
+
+
+        <div class="logo_olx">
+            <a href="#"><svg fill="#3a77ff" ; height="20" viewBox="0 0 36.289 20.768" alt="Olx logo"
+                class="_21d60d2f">
+                <path
+                    d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z">
+                </path>
+            </svg></a>
+        </div>
+
+        <div class="motors">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 66 20" alt="OLX Motors"
+                            class="_1a6eed8f">
+                            <path
+                                d="M4.9 10a1.33 1.33 0 1 0 0 2.66 1.33 1.33 0 0 0 0-2.67zm0 1.8a.48.48 0 1 1 0-.95.48.48 0 0 1 0 .96zM15.65 10a1.33 1.33 0 1 0 0 2.66 1.33 1.33 0 0 0 0-2.67zm0 1.8a.48.48 0 1 1 0-.95.48.48 0 0 1 0 .96zm-2.03.22H7v.85h6.63v-.85zM24 13.48h1.14V8.72l2.13 4.76h.79l2.12-4.76v4.76h1.14V6.53H30.1l-2.43 5.45-2.44-5.45H24v6.95zM39.54 10a3.46 3.46 0 0 0-3.55-3.55A3.48 3.48 0 0 0 32.44 10a3.48 3.48 0 0 0 3.55 3.56A3.47 3.47 0 0 0 39.54 10zm-5.93 0c0-1.57 1-2.55 2.38-2.55s2.38.98 2.38 2.55c0 1.57-1 2.57-2.38 2.57s-2.38-1-2.38-2.57zm6.69-2.53h1.86v6.02h1.14V7.46h1.85v-.93H40.3v.93zM53.02 10a3.46 3.46 0 0 0-3.55-3.55A3.48 3.48 0 0 0 45.94 10a3.48 3.48 0 0 0 3.55 3.56A3.47 3.47 0 0 0 53.02 10zm-5.93 0c0-1.57 1-2.55 2.38-2.55s2.39.98 2.39 2.55c0 1.57-1 2.57-2.38 2.57s-2.38-1-2.38-2.57zm10.75-1.38c0 .7-.4 1.18-1.3 1.18H55.3V7.46h1.26c.89 0 1.29.45 1.29 1.15zm-3.7-2.08v6.95h1.15V10.7h.87l1.6 2.79h1.36L57.4 10.6A1.98 1.98 0 0 0 59 8.63c0-1.13-.8-2.08-2.45-2.08h-2.4zm11.02 4.98c0-2.54-3.68-1.56-3.68-3.13 0-.67.5-.99 1.17-.97.72.02 1.13.45 1.17.92h1.26c-.1-1.19-1.04-1.89-2.37-1.89-1.42 0-2.4.76-2.4 1.98 0 2.56 3.7 1.47 3.7 3.15 0 .6-.45 1.02-1.25 1.02s-1.2-.46-1.24-1.03H60.3c0 1.23 1.07 2 2.46 2 1.55 0 2.4-1 2.4-2.05z">
+                            </path>
+                            <path
+                                d="M19.09 7.26a1.23 1.23 0 0 0-1.54-.8l-.68.21L15.7 4.2l-.37-.12a17.75 17.75 0 0 0-5.3-.74 13.32 13.32 0 0 0-4.84.76l-.33.13-1.12 2.6-.48-.16a1.23 1.23 0 1 0-.74 2.34l.1.03-.08.14a4.5 4.5 0 0 0-.45 1.67c-.01.27 0 .82.02 1.35l.01 2.96v.03c-.02.26.01.53.08.8a.82.82 0 0 0 .83.54h1.75a.82.82 0 0 0 .82-.55c.07-.26.1-.53.09-.8v-.32c2.04.18 3.35.27 4.64.27 1.29 0 2.55-.09 4.5-.26v.32c-.02.26.01.53.09.8a.82.82 0 0 0 .82.54h1.75a.81.81 0 0 0 .82-.55c.08-.26.1-.53.09-.8V12.24c.05-.54.09-1.1.08-1.42A4.14 4.14 0 0 0 18 9.07l-.08-.16.35-.1a1.23 1.23 0 0 0 .8-1.55zM5.5 4.89h.02a12.48 12.48 0 0 1 4.5-.7c1.7-.02 3.4.21 5.03.7h.03l.96 2.03a19.57 19.57 0 0 1-4.74.46h-.79a31.31 31.31 0 0 1-5.94-.33l.93-2.16zm-.67 10.3a2.41 2.41 0 0 1-.03.48H3a2.4 2.4 0 0 1-.03-.49v-.64c.12.06.25.1.38.1l1.48.14v.4zm12.72-.04v.04a2.39 2.39 0 0 1-.03.48h-1.8a2.41 2.41 0 0 1-.03-.49v-.4l1.39-.12c.17-.02.33-.07.47-.15v.64zM18.03 8l-1.3.41.52 1.06c.22.43.35.9.38 1.37 0 .27-.03.78-.06 1.25h-.01v.15l-.05.78c-.01.32-.21.78-.51.8-3.32.32-4.99.47-6.67.47-1.7 0-3.43-.16-6.9-.47-.21-.02-.35-.36-.4-.66a11.35 11.35 0 0 1-.07-.97v-.1a18.51 18.51 0 0 1-.02-1.2 3.6 3.6 0 0 1 .36-1.3l.57-1.03-1.09-.34a.37.37 0 0 1 .23-.72l1.21.39.01-.03c1.82.32 3.66.45 5.5.39h1.57a19.82 19.82 0 0 0 5.12-.52l1.4-.44a.38.38 0 0 1 .46.24.37.37 0 0 1-.25.47z">
+                            </path>
+                        </svg>
+
+        </div>
+
+
+        <div class="property">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 73 20" alt="OLX Property"
+            class="_1a6eed8f">
+            <path
+                d="M17.42 17.72H2.5V16.7h.4V2.5h8.47v14.21h5.04v-8.7l-4.03-1.35V5.6l5.04 1.68v9.43h.4v1h-.4zM3.92 16.7h6.44V3.51H3.91v13.2zm10.31-2.94v-.81h.82v.81h-.82zm-1.63 0v-.81h.82v.81h-.82zm-4.88 0v-.81h1.63v.81H7.72zm-2.45 0v-.81H6.9v.81H5.27zm8.96-2.44v-.81h.82v.81h-.82zm-1.63 0v-.81h.82v.81h-.82zm-4.88 0v-.81h1.63v.81H7.72zm-2.45 0v-.81H6.9v.81H5.27zm8.96-1.63V8.9h.82v.81h-.82zm-1.63 0V8.9h.82v.81h-.82zm-4.88 0V8.9h1.63v.81H7.72zm-2.45 0V8.9H6.9v.81H5.27zm2.45-2.44v-.82h1.63v.82H7.7zm-2.45 0v-.82H6.9v.82H5.27zm2.45-1.63v-.81h1.63v.8H7.7zm-2.45 0v-.81H6.9v.8H5.27zm19.87 4.1V7.46h1.26c.89 0 1.29.42 1.29 1.14 0 .7-.4 1.14-1.29 1.14h-1.26zm3.72-1.13c0-1.12-.81-2.06-2.46-2.06H24v6.95h1.14v-2.83h1.26c1.81 0 2.46-1.07 2.46-2.06zm4.78.02c0 .69-.4 1.18-1.3 1.18H31.1V7.46h1.26c.89 0 1.29.45 1.29 1.15zm-3.7-2.08v6.95h1.15V10.7h.87l1.6 2.79h1.36L33.2 10.6a1.98 1.98 0 0 0 1.6-1.98c0-1.13-.8-2.08-2.45-2.08h-2.4zM43 10a3.46 3.46 0 0 0-3.55-3.55A3.48 3.48 0 0 0 35.89 10a3.48 3.48 0 0 0 3.55 3.56A3.47 3.47 0 0 0 42.99 10zm-5.93 0c0-1.57 1-2.55 2.38-2.55s2.38.98 2.38 2.55c0 1.57-1 2.57-2.38 2.57s-2.38-1-2.38-2.57zm8.19-.26V7.47h1.26c.89 0 1.29.42 1.29 1.14 0 .7-.4 1.13-1.3 1.13h-1.25zm3.72-1.13c0-1.13-.81-2.07-2.46-2.07h-2.4v6.95h1.14v-2.83h1.26c1.8 0 2.46-1.07 2.46-2.06zm4.92-2.08h-3.84v6.96h3.84v-.94h-2.7v-2.13h2.4V9.5h-2.4V7.46h2.7v-.93zM59 8.6c0 .7-.4 1.19-1.3 1.19h-1.25V7.46h1.26c.89 0 1.29.45 1.29 1.15zm-3.7-2.07v6.95h1.15V10.7h.87l1.6 2.79h1.36l-1.72-2.89a1.98 1.98 0 0 0 1.6-1.98c0-1.13-.8-2.08-2.45-2.08h-2.4zm5.97.93h1.86v6.01h1.14V7.46h1.85v-.93h-4.85v.93zm7.71 3.5v2.51h1.14v-2.52l2.3-4.43h-1.26l-1.6 3.42-1.62-3.41h-1.27l2.31 4.42z">
+            </path>
+        </svg>
+        </div>
+
+            
+        </div>
+
+        <div class="location">
+            <p> <span><img src="assests/location.svg" alt=""></span> Malir Khokhrapar, Karachi Pakistan</p>
+        </div>
+
+        <div class="mob_search">
+            <div class="mob_search_inner">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 1024 1024">
+                    <path
+                        d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z">
+                    </path>
+                </svg>
+                <input type="text" placeholder=" All ads in Malir Khokhrapar Karachi Pakistan">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                   <div class="adver">
+                       <div class="toast show">
+                         <div class="toast-body add">
+                           <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+                          <img src="assests/banner-add.png" alt="">
+                         </div>
+                       </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="custom_cat_con">
+
+            <div class="browse">
+                <div class="text_bro">
+                    <p>Browse Categories</p>
+                </div>
+                <div class="see_all">
+                    <a href="#">See All</a>
+                </div>
+            </div>
+           
+            <div class="inner">
+                <div class="cu_cat">
+                  <div class="img_cat img1">
+                      <img src="assests/mobile.svg" alt="">
+                  </div>
+                  <div class="cat_title">
+                      <p>Mobiles</p>
+                  </div>
+                </div>
+                <div class="cu_cat">
+                    <div class="img_cat img2">
+                        <img src="assests/vehicle.svg" alt="">
+                    </div>
+                    <div class="cat_title">
+                        <p>Vehicles</p>
+                    </div>
+                  </div>
+                  <div class="cu_cat">
+                    <div class="img_cat img1">
+                        <img src="assests/ps2.svg" alt="">
+                    </div>
+                    <div class="cat_title">
+                        <p>Property for Sale</p>
+                    </div>
+                  </div>
+                  <div class="cu_cat">
+                    <div class="img_cat img2">
+                        <img src="assests/ps.svg" alt="">
+                      
+                    </div>
+                    <div class="cat_title">
+                        <p>Property for Rent</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    
+
+    </div>
+       
+   
+    
+
+
+
+        
+
+
+
+    <div class="section_main desktop_header">
+        <div class="top_navigation">
+            <div class="logo_icons">
+                <ul>
+                    <li><a href="#"><svg fill="#3a77ff" ; height="20" viewBox="0 0 36.289 20.768" alt="Olx logo"
+                                class="_21d60d2f">
+                                <path
+                                    d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z">
+                                </path>
+                            </svg></a></li>
+                    <li><a href="#">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 66 20" alt="OLX Motors"
+                                class="_1a6eed8f">
+                                <path
+                                    d="M4.9 10a1.33 1.33 0 1 0 0 2.66 1.33 1.33 0 0 0 0-2.67zm0 1.8a.48.48 0 1 1 0-.95.48.48 0 0 1 0 .96zM15.65 10a1.33 1.33 0 1 0 0 2.66 1.33 1.33 0 0 0 0-2.67zm0 1.8a.48.48 0 1 1 0-.95.48.48 0 0 1 0 .96zm-2.03.22H7v.85h6.63v-.85zM24 13.48h1.14V8.72l2.13 4.76h.79l2.12-4.76v4.76h1.14V6.53H30.1l-2.43 5.45-2.44-5.45H24v6.95zM39.54 10a3.46 3.46 0 0 0-3.55-3.55A3.48 3.48 0 0 0 32.44 10a3.48 3.48 0 0 0 3.55 3.56A3.47 3.47 0 0 0 39.54 10zm-5.93 0c0-1.57 1-2.55 2.38-2.55s2.38.98 2.38 2.55c0 1.57-1 2.57-2.38 2.57s-2.38-1-2.38-2.57zm6.69-2.53h1.86v6.02h1.14V7.46h1.85v-.93H40.3v.93zM53.02 10a3.46 3.46 0 0 0-3.55-3.55A3.48 3.48 0 0 0 45.94 10a3.48 3.48 0 0 0 3.55 3.56A3.47 3.47 0 0 0 53.02 10zm-5.93 0c0-1.57 1-2.55 2.38-2.55s2.39.98 2.39 2.55c0 1.57-1 2.57-2.38 2.57s-2.38-1-2.38-2.57zm10.75-1.38c0 .7-.4 1.18-1.3 1.18H55.3V7.46h1.26c.89 0 1.29.45 1.29 1.15zm-3.7-2.08v6.95h1.15V10.7h.87l1.6 2.79h1.36L57.4 10.6A1.98 1.98 0 0 0 59 8.63c0-1.13-.8-2.08-2.45-2.08h-2.4zm11.02 4.98c0-2.54-3.68-1.56-3.68-3.13 0-.67.5-.99 1.17-.97.72.02 1.13.45 1.17.92h1.26c-.1-1.19-1.04-1.89-2.37-1.89-1.42 0-2.4.76-2.4 1.98 0 2.56 3.7 1.47 3.7 3.15 0 .6-.45 1.02-1.25 1.02s-1.2-.46-1.24-1.03H60.3c0 1.23 1.07 2 2.46 2 1.55 0 2.4-1 2.4-2.05z">
+                                </path>
+                                <path
+                                    d="M19.09 7.26a1.23 1.23 0 0 0-1.54-.8l-.68.21L15.7 4.2l-.37-.12a17.75 17.75 0 0 0-5.3-.74 13.32 13.32 0 0 0-4.84.76l-.33.13-1.12 2.6-.48-.16a1.23 1.23 0 1 0-.74 2.34l.1.03-.08.14a4.5 4.5 0 0 0-.45 1.67c-.01.27 0 .82.02 1.35l.01 2.96v.03c-.02.26.01.53.08.8a.82.82 0 0 0 .83.54h1.75a.82.82 0 0 0 .82-.55c.07-.26.1-.53.09-.8v-.32c2.04.18 3.35.27 4.64.27 1.29 0 2.55-.09 4.5-.26v.32c-.02.26.01.53.09.8a.82.82 0 0 0 .82.54h1.75a.81.81 0 0 0 .82-.55c.08-.26.1-.53.09-.8V12.24c.05-.54.09-1.1.08-1.42A4.14 4.14 0 0 0 18 9.07l-.08-.16.35-.1a1.23 1.23 0 0 0 .8-1.55zM5.5 4.89h.02a12.48 12.48 0 0 1 4.5-.7c1.7-.02 3.4.21 5.03.7h.03l.96 2.03a19.57 19.57 0 0 1-4.74.46h-.79a31.31 31.31 0 0 1-5.94-.33l.93-2.16zm-.67 10.3a2.41 2.41 0 0 1-.03.48H3a2.4 2.4 0 0 1-.03-.49v-.64c.12.06.25.1.38.1l1.48.14v.4zm12.72-.04v.04a2.39 2.39 0 0 1-.03.48h-1.8a2.41 2.41 0 0 1-.03-.49v-.4l1.39-.12c.17-.02.33-.07.47-.15v.64zM18.03 8l-1.3.41.52 1.06c.22.43.35.9.38 1.37 0 .27-.03.78-.06 1.25h-.01v.15l-.05.78c-.01.32-.21.78-.51.8-3.32.32-4.99.47-6.67.47-1.7 0-3.43-.16-6.9-.47-.21-.02-.35-.36-.4-.66a11.35 11.35 0 0 1-.07-.97v-.1a18.51 18.51 0 0 1-.02-1.2 3.6 3.6 0 0 1 .36-1.3l.57-1.03-1.09-.34a.37.37 0 0 1 .23-.72l1.21.39.01-.03c1.82.32 3.66.45 5.5.39h1.57a19.82 19.82 0 0 0 5.12-.52l1.4-.44a.38.38 0 0 1 .46.24.37.37 0 0 1-.25.47z">
+                                </path>
+                            </svg>
+
+                        </a></li>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 73 20" alt="OLX Property"
+                                class="_1a6eed8f">
+                                <path
+                                    d="M17.42 17.72H2.5V16.7h.4V2.5h8.47v14.21h5.04v-8.7l-4.03-1.35V5.6l5.04 1.68v9.43h.4v1h-.4zM3.92 16.7h6.44V3.51H3.91v13.2zm10.31-2.94v-.81h.82v.81h-.82zm-1.63 0v-.81h.82v.81h-.82zm-4.88 0v-.81h1.63v.81H7.72zm-2.45 0v-.81H6.9v.81H5.27zm8.96-2.44v-.81h.82v.81h-.82zm-1.63 0v-.81h.82v.81h-.82zm-4.88 0v-.81h1.63v.81H7.72zm-2.45 0v-.81H6.9v.81H5.27zm8.96-1.63V8.9h.82v.81h-.82zm-1.63 0V8.9h.82v.81h-.82zm-4.88 0V8.9h1.63v.81H7.72zm-2.45 0V8.9H6.9v.81H5.27zm2.45-2.44v-.82h1.63v.82H7.7zm-2.45 0v-.82H6.9v.82H5.27zm2.45-1.63v-.81h1.63v.8H7.7zm-2.45 0v-.81H6.9v.8H5.27zm19.87 4.1V7.46h1.26c.89 0 1.29.42 1.29 1.14 0 .7-.4 1.14-1.29 1.14h-1.26zm3.72-1.13c0-1.12-.81-2.06-2.46-2.06H24v6.95h1.14v-2.83h1.26c1.81 0 2.46-1.07 2.46-2.06zm4.78.02c0 .69-.4 1.18-1.3 1.18H31.1V7.46h1.26c.89 0 1.29.45 1.29 1.15zm-3.7-2.08v6.95h1.15V10.7h.87l1.6 2.79h1.36L33.2 10.6a1.98 1.98 0 0 0 1.6-1.98c0-1.13-.8-2.08-2.45-2.08h-2.4zM43 10a3.46 3.46 0 0 0-3.55-3.55A3.48 3.48 0 0 0 35.89 10a3.48 3.48 0 0 0 3.55 3.56A3.47 3.47 0 0 0 42.99 10zm-5.93 0c0-1.57 1-2.55 2.38-2.55s2.38.98 2.38 2.55c0 1.57-1 2.57-2.38 2.57s-2.38-1-2.38-2.57zm8.19-.26V7.47h1.26c.89 0 1.29.42 1.29 1.14 0 .7-.4 1.13-1.3 1.13h-1.25zm3.72-1.13c0-1.13-.81-2.07-2.46-2.07h-2.4v6.95h1.14v-2.83h1.26c1.8 0 2.46-1.07 2.46-2.06zm4.92-2.08h-3.84v6.96h3.84v-.94h-2.7v-2.13h2.4V9.5h-2.4V7.46h2.7v-.93zM59 8.6c0 .7-.4 1.19-1.3 1.19h-1.25V7.46h1.26c.89 0 1.29.45 1.29 1.15zm-3.7-2.07v6.95h1.15V10.7h.87l1.6 2.79h1.36l-1.72-2.89a1.98 1.98 0 0 0 1.6-1.98c0-1.13-.8-2.08-2.45-2.08h-2.4zm5.97.93h1.86v6.01h1.14V7.46h1.85v-.93h-4.85v.93zm7.71 3.5v2.51h1.14v-2.52l2.3-4.43h-1.26l-1.6 3.42-1.62-3.41h-1.27l2.31 4.42z">
+                                </path>
+                            </svg>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main_navigation">
+
+            <div class="search_box">
+                <div class="search_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 1024 1024">
+                        <path
+                            d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z">
+                        </path>
+                    </svg>
+
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="Search city, area or locality" value="Pakistan">
+                </div>
+                <div class="dropIcon">
+                    <img src="assests/caret.svg" alt="">
+                </div>
+            </div>
+
+
+            <div class="search_bar">
+                <input type="text" placeholder="Find Cars, Mobile Phones and more..." name="" id="">
+                <span><svg fill="#fff" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 1024 1024"
+                        class="_4743d0f8">
+                        <path
+                            d="M448 725.33c-152.92 0-277.33-124.41-277.33-277.33S295.08 170.67 448 170.67 725.33 295.08 725.33 448 600.92 725.33 448 725.33zm436.44 98.78v.02L732.52 672.19c48.77-61.78 78.15-139.54 78.15-224.19 0-199.98-162.7-362.67-362.67-362.67S85.33 248.03 85.33 448c0 199.98 162.69 362.67 362.67 362.67 84.63 0 162.41-29.38 224.17-78.15l206.14 206.15h60.36v-60.33l-54.23-54.23z">
+                        </path>
+                    </svg></span>
+            </div>
+
+            <div class="account_info">
+                <ul>
+                    <li><a data-bs-toggle="modal" href="#exampleModalToggle" href="#" class="login_link">Login</a></li>
+
+                    <li><a data-bs-toggle="modal" href="#exampleModalToggle" href="#" href="#"><img
+                                src="assests/logo.PNG"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="nav_middle">
+        <div class="cat">
+         <div class="dropdown show">
+             <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 ALL CATEGORIES
+             </a>
+           
+             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+             
+                 <div class="nav_main">
+                     <div class="nav_items">
+                        <ul>
+                            <li class="one"><a href=""><h5>Mobiles</h5></a></li>
+                            <li><a href="">Tablets</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">Mobile Phones</a></li> 
+                        </ul>
+
+                        <ul>
+                            <li class="one"><a href=""><h5>Vehicles</h5></a></li>
+                            <li><a href="">Cars</a></li>
+                            <li><a href="">Cars on Installments</a></li>
+                            <li><a href="">Cars Accessories</a></li>
+                            <li><a href="">Spare Parts</a></li>
+                            <li><a href="">Buses, Vans & Trucks</a></li>
+                            <li><a href="">Rickshaw & Chingchi</a></li>
+                            <li><a href="">Other Vehicles</a></li>
+                            <li><a href="">Boats</a></li>
+                            <li><a href="">Tractors & Trailers</a></li>
+                        </ul>
+
+
+                        <ul>
+                            <li class="one"><a href=""><h5> Property for Sale</h5></a></li>
+                            <li><a href="">Land & Plots</a></li>
+                            <li><a href="">Houses</a></li>
+                            <li><a href="">Apartments & Flats</a></li>
+                            <li><a href="">Shops - Offices - Commercial Space</a></li>
+                            <li><a href="">Portions & Floors</a></li>
+                        </ul>
+
+                        <ul>
+                            <li class="one"><a href=""><h5> Property for Rent</h5></a></li>
+                            <li><a href="">Houses</a></li>
+                            <li><a href="">Apartments & Flats</a></li>
+                            <li><a href="">Portions & Floors</a></li>
+                            <li><a href="">Shops - Offices - Commercial Space</a></li>
+                            <li><a href="">Roommates & Paying Guests</a></li>
+                            <li><a href="">Rooms</a></li>
+                            <li><a href="">Vacation Rentals - Guest Houses</a></li>
+                            <li><a href="">Land & Plots</a></li>
+                        </ul>
+                     </div>
+                     <div class="nav_items">
+                        <ul>
+                            <li class="one"><a href=""><h5>Mobiles</h5></a></li>
+                            <li><a href="">Tablets</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">Mobile Phones</a></li> 
+                        </ul>
+
+                        <ul>
+                            <li class="one"><a href=""><h5>Vehicles</h5></a></li>
+                            <li><a href="">Cars</a></li>
+                            <li><a href="">Cars on Installments</a></li>
+                            <li><a href="">Cars Accessories</a></li>
+                            <li><a href="">Spare Parts</a></li>
+                            <li><a href="">Buses, Vans & Trucks</a></li>
+                            <li><a href="">Rickshaw & Chingchi</a></li>
+                            <li><a href="">Other Vehicles</a></li>
+                            <li><a href="">Boats</a></li>
+                            <li><a href="">Tractors & Trailers</a></li>
+                        </ul>
+
+
+                        <ul>
+                            <li class="one"><a href=""><h5> Property for Sale</h5></a></li>
+                            <li><a href="">Land & Plots</a></li>
+                            <li><a href="">Houses</a></li>
+                            <li><a href="">Apartments & Flats</a></li>
+                            <li><a href="">Shops - Offices - Commercial Space</a></li>
+                            <li><a href="">Portions & Floors</a></li>
+                        </ul>
+
+                        <ul>
+                            <li class="one"><a href=""><h5> Property for Rent</h5></a></li>
+                            <li><a href="">Houses</a></li>
+                            <li><a href="">Apartments & Flats</a></li>
+                            <li><a href="">Portions & Floors</a></li>
+                            <li><a href="">Shops - Offices - Commercial Space</a></li>
+                            <li><a href="">Roommates & Paying Guests</a></li>
+                            <li><a href="">Rooms</a></li>
+                            <li><a href="">Vacation Rentals - Guest Houses</a></li>
+                            <li><a href="">Land & Plots</a></li>
+                        </ul>
+                     </div>
+                     <div class="nav_items">
+                        <ul>
+                            <li class="one"><a href=""><h5>Mobiles</h5></a></li>
+                            <li><a href="">Tablets</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">Mobile Phones</a></li> 
+                        </ul>
+
+                        <ul>
+                            <li class="one"><a href=""><h5>Vehicles</h5></a></li>
+                            <li><a href="">Cars</a></li>
+                            <li><a href="">Cars on Installments</a></li>
+                            <li><a href="">Cars Accessories</a></li>
+                            <li><a href="">Spare Parts</a></li>
+                            <li><a href="">Buses, Vans & Trucks</a></li>
+                            <li><a href="">Rickshaw & Chingchi</a></li>
+                            <li><a href="">Other Vehicles</a></li>
+                            <li><a href="">Boats</a></li>
+                            <li><a href="">Tractors & Trailers</a></li>
+                        </ul>
+
+
+                        <ul>
+                            <li class="one"><a href=""><h5> Property for Sale</h5></a></li>
+                            <li><a href="">Land & Plots</a></li>
+                            <li><a href="">Houses</a></li>
+                            <li><a href="">Apartments & Flats</a></li>
+                            <li><a href="">Shops - Offices - Commercial Space</a></li>
+                            <li><a href="">Portions & Floors</a></li>
+                        </ul>
+
+                        <ul>
+                            <li class="one"><a href=""><h5> Property for Rent</h5></a></li>
+                            <li><a href="">Houses</a></li>
+                            <li><a href="">Apartments & Flats</a></li>
+                            <li><a href="">Portions & Floors</a></li>
+                            <li><a href="">Shops - Offices - Commercial Space</a></li>
+                            <li><a href="">Roommates & Paying Guests</a></li>
+                            <li><a href="">Rooms</a></li>
+                            <li><a href="">Vacation Rentals - Guest Houses</a></li>
+                            <li><a href="">Land & Plots</a></li>
+                        </ul>
+                     </div>
+                     <div class="nav_items">
+                        <ul>
+                            <li class="one"><a href=""><h5>Mobiles</h5></a></li>
+                            <li><a href="">Tablets</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">Mobile Phones</a></li> 
+                        </ul>
+
+                        <ul>
+                            <li class="one"><a href=""><h5>Vehicles</h5></a></li>
+                            <li><a href="">Cars</a></li>
+                            <li><a href="">Cars on Installments</a></li>
+                            <li><a href="">Cars Accessories</a></li>
+                            <li><a href="">Spare Parts</a></li>
+                            <li><a href="">Buses, Vans & Trucks</a></li>
+                            <li><a href="">Rickshaw & Chingchi</a></li>
+                            <li><a href="">Other Vehicles</a></li>
+                            <li><a href="">Boats</a></li>
+                            <li><a href="">Tractors & Trailers</a></li>
+                        </ul>
+
+
+                        <ul>
+                            <li class="one"><a href=""><h5> Property for Sale</h5></a></li>
+                            <li><a href="">Land & Plots</a></li>
+                            <li><a href="">Houses</a></li>
+                            <li><a href="">Apartments & Flats</a></li>
+                            <li><a href="">Shops - Offices - Commercial Space</a></li>
+                            <li><a href="">Portions & Floors</a></li>
+                        </ul>
+
+                        <ul>
+                            <li class="one"><a href=""><h5> Property for Rent</h5></a></li>
+                            <li><a href="">Houses</a></li>
+                            <li><a href="">Apartments & Flats</a></li>
+                            <li><a href="">Portions & Floors</a></li>
+                            <li><a href="">Shops - Offices - Commercial Space</a></li>
+                            <li><a href="">Roommates & Paying Guests</a></li>
+                            <li><a href="">Rooms</a></li>
+                            <li><a href="">Vacation Rentals - Guest Houses</a></li>
+                            <li><a href="">Land & Plots</a></li>
+                        </ul>
+                     </div>
+                 </div>
+             </div>
+           </div>
+    
+        </div>
+ 
+        <div class="sec_cat">
+            <ul>
+            <li></li>
+             <li><a href="">  Mobile Phones</a></li>
+             <li><a href="">Cars</a></li>
+             <li><a href="">Motorcycles</a></li>
+             <li><a href="">Houses</a></li>
+             <li><a href="">TV - Video - Audio</a></li>
+             <li><a href="">Tablets</a></li>
+             <li><a href=""> Land & Plots</a></li>
+ 
+         </ul>
+          
+        </div>   
+     </div>
+
+  <!-- header Close -->
+
+    <div class="banner"> </div>
+
+
+     <div class="container desktop_toast">
+         <div class="row">
+             <div class="col-md-12">
+                <div class="adver">
+                    <div class="toast show">
+                      <div class="toast-body">
+                        <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+                       <img src="assests/9098789581683462942.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+             </div>
+         </div>
+     </div>
+   
+
+
+     <div class="container custom_container">
+         <div class="row">
+             <div class="heading_main">
+                 <h4>Fresh recommendations</h4>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-lg-3 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="assests/p1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="name_like">
+                            <div class="pname">
+                                <p>samsung s10e board required</p>
+                            </div>
+                            <div class="like_icon">
+                                <img src="assests/like.svg" alt="">
+                            </div>
+    
+                        </div>
+                        <h5  class="card-title">Rs 8,000</h5>
+                      <p class="card-text">Gulshan-E-Iqbal Block 5, Karachi. <span class="time_product">0 minutes ago</span></p>
+                    </div>
+                  </div>
+             </div>
+             <div class="col-lg-3 col-md-4 ">
+                <div class="card">
+                    <img class="card-img-top" src="assests/p2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="name_like">
+                            <div class="pname">
+                                <p>Residential Plot For Sale In Lahore</p>
+                            </div>
+                            <div class="like_icon">
+                                <img src="assests/like.svg" alt="">
+                            </div>
+                        </div>
+                        <h5 class="card-title">Rs 10,000,000</h5>
+                      <p class="card-text">Chinar Bagh, Lahore. <span class="time_product">1 week ago</span></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-4 ">
+                <div class="card">
+                    <img class="card-img-top" src="assests/p3.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="name_like">
+                            <div class="pname">
+                                <p>Redmi note 10 pro 6 gb /128 Gb.</p>
+                            </div>
+                            <div class="like_icon">
+                                <img src="assests/like.svg" alt="">
+                            </div>
+    
+                        </div>
+                        <h5 class="card-title">Rs 41,500</h5>
+                      <p class="card-text">Jhang Sadar. <span class="time_product">0 minutes ago</span></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-4 ">
+                <div class="card">
+                    <img class="card-img-top" src="assests/p4.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="name_like">
+                            <div class="pname">
+                                <p>need car bike and rickshaw holder for bykea.....</p>
+                            </div>
+                            <div class="like_icon">
+                                <img src="assests/like.svg" alt="">
+                            </div>
+                        </div>
+                        <h5 class="card-title">Rs 45,000 - 50,000 | Monthly</h5>
+                      <p class="card-text">Bhatta Chowk, Lahore<span class="time_product">5 days ago</span></p>
+                    </div>
+                  </div>
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-lg-3 col-md-4 ">
+               <div class="card">
+                   <img class="card-img-top" src="assests/p5.png" alt="Card image cap">
+                   <div class="card-body">
+                       <div class="name_like">
+                           <div class="pname">
+                               <p>3 piece suit</p>
+                           </div>
+                           <div class="like_icon">
+                               <img src="assests/like.svg" alt="">
+                           </div>
+   
+                       </div>
+                       <h5 class="card-title">Rs 3,000</h5>
+                     <p class="card-text">Pir Makki, Lahore. <span class="time_product">0 minutes ago</span></p>
+                   </div>
+                 </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 ">
+                <div class="card color">
+                    
+                    <div class="card-body">
+                       
+                            <h5 class="card-title">Want to see your stuff here?</h5>
+                            <p>Make some extra cash by selling things in your community. Go on, it's quick and easy.</p>
+    
+                            <button type="button" class="btn ">Start Selling</button>
+                    </div>
+                  </div>
+             </div>
+
+             <div class="col-lg-3 col-md-4 ">
+                <div class="card">
+                    <img class="card-img-top" src="assests/p6.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="name_like">
+                            <div class="pname">
+                                <p>samsung s10e board required</p>
+                            </div>
+                            <div class="like_icon">
+                                <img src="assests/like.svg" alt="">
+                            </div>
+    
+                        </div>
+                        <h5 class="card-title">Rs 8,000</h5>
+                      <p class="card-text">Gulshan-E-Iqbal Block 5, Karachi. <span class="time_product">0 minutes ago</span></p>
+                    </div>
+                  </div>
+             </div>
+
+             <div class="col-lg-3 col-md-4 ">
+                <div class="card">
+                    <img class="card-img-top" src="assests/p7.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="name_like">
+                            <div class="pname">
+                                <p>samsung s10e board required</p>
+                            </div>
+                            <div class="like_icon">
+                                <img src="assests/like.svg" alt="">
+                            </div>
+    
+                        </div>
+                        <h5 class="card-title">Rs 8,000</h5>
+                      <p class="card-text">Gulshan-E-Iqbal Block 5, Karachi. <span class="time_product">0 minutes ago</span></p>
+                    </div>
+                  </div>
+             </div>
+
+            
+     </div>
+
+
+
+
+
+
+     
+
+ <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6 ">
+       <div class="card">
+           <img class="card-img-top" src="assests/p8.png" alt="Card image cap">
+           <div class="card-body">
+               <div class="name_like">
+                   <div class="pname">
+                       <p>Air F9 Max Buds+ Digital Edition / Elite Airpods Rs=2800</p>
+                   </div>
+                   <div class="like_icon">
+                       <img src="assests/like.svg" alt="">
+                   </div>
+
+               </div>
+               <h5 class="card-title">Rs 23,00</h5>
+             <p class="card-text">Attock. <span class="time_product">2 weeks ago</span></p>
+           </div>
+         </div>
+    </div>
+    <div class="col-lg-3 col-md-4 ">
+       <div class="card">
+           <img class="card-img-top" src="assests/p9.png" alt="Card image cap">
+           <div class="card-body">
+               <div class="name_like">
+                   <div class="pname">
+                       <p>Mitsubishi Electric DC Inverter</p>
+                   </div>
+                   <div class="like_icon">
+                       <img src="assests/like.svg" alt="">
+                   </div>
+               </div>
+               <h5 class="card-title">Rs 40,000</h5>
+             <p class="card-text">Askari 14, Rawalpindi. <span class="time_product">1 week ago</span></p>
+           </div>
+         </div>
+   </div>
+   <div class="col-lg-3 col-md-4 ">
+       <div class="card">
+           <img class="card-img-top" src="assests/p10.png" alt="Card image cap">
+           <div class="card-body">
+               <div class="name_like">
+                   <div class="pname">
+                       <p>Honda CG125 special edition self start.</p>
+                   </div>
+                   <div class="like_icon">
+                       <img src="assests/like.svg" alt="">
+                   </div>
+
+               </div>
+               <h5 class="card-title">Rs 105,500</h5>
+             <p class="card-text">Multan. <span class="time_product">1 minutes ago</span></p>
+           </div>
+         </div>
+   </div>
+   <div class="col-lg-3 col-md-4 ">
+       <div class="card">
+           <img class="card-img-top" src="assests/p11.png" alt="Card image cap">
+           <div class="card-body">
+               <div class="name_like">
+                   <div class="pname">
+                       <p>QINGQi.</p>
+                   </div>
+                   <div class="like_icon">
+                       <img src="assests/like.svg" alt="">
+                   </div>
+               </div>
+               <h5 class="card-title ">130,000</h5>
+             <p class="card-text custom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" class="f509e7b9"><path fill="#406367" fill-rule="evenodd" d="M7 .3c3.7 0 6.7 3 6.7 6.7 0 1.5-.2 3.1-1.6 4.5l-.4.2H2.3l-.4-.2C.5 10 .3 8.5.3 7 .3 3.3 3.3.3 7 .3zm0 1.4C4 1.7 1.7 4 1.7 7c0 1.6.2 2.6 1 3.3h8.7c.7-.7 1-1.7 1-3.3 0-3-2.5-5.3-5.4-5.3zm3.3 2v1l-.8.8-.7.6.2 1A2 2 0 1 1 8 5l1.5-1.4h1zM7 6.3a.7.7 0 1 0 0 1.4.7.7 0 0 0 0-1.4z"></path></svg>20,000 km<span class="time_product">2016</span></p>
+             <p class="card-text custom">Rawat, Rawalpindi<span class="time_product">0 minutes ago</span></p>
+
+           </div>
+         </div>
+   </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+        <div class="button_load">
+        <button type="button" class="btn  load_more ">Load more</button>
+            
+        </div>
+    </div>
+</div>
+</div>
+
+   </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               <div class="adver">
+                   <div class="toast show">
+                     <div class="toast-body add">
+                       <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+                      <img src="assests/add.png" alt="">
+                     </div>
+                   </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="section_main footer_section">
+        <div class="top_navigation">
+          <div class="mob_img">
+              <img src="assests/mob.webp" alt="">
+          </div>
+
+          <div class="text">
+
+            <div class="inner_text">
+                <h1>TRY THE OLX APP</h1>
+                <p>Buy, sell and find just about anything using the app on your mobile.</p>
+            </div>
+             
+          </div>
+
+          <div class="play">
+              <p>GET YOUR APP TODAY</p>
+              <ul>
+                  <li><a href=""><img src="assests/playstor.svg" alt=""></a></li>
+                  <li><a href=""><img src="assests/google.svg" alt=""></a></li>
+                  <li><a href=""><img src="assests/app.svg" alt=""></a></li>
+
+              </ul>
+          </div>
+        </div>
+
+        
+    </div>
+
+
+    <div class="section_main footer_section bottom_footer">
+       
+        <div class="one">
+           <ul>
+               <li><a href="#"><h4>POPULAR CATEGORIES</h4></a></li>
+               <li><a href="#">Cars</a></li>
+               <li><a href="#">Flats for rent</a></li>
+               <li><a href="#">Mobile Phones</a></li>
+               <li><a href="#">Jobs</a></li>
+           </ul>
+        </div>
+        <div class="one">
+            <ul>
+                <li><a href="#"><h4>TRENDING SEARCHES</h4></a></li>
+                <li><a href="#">Bikes</a></li>
+                <li><a href="#">Watches</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Dogs</a></li>
+            </ul>
+        </div>
+        
+
+
+
+        <div class="one">
+            <ul>
+                <li><a href="#"><h4>ABOUT US</h4></a></li>
+                <li><a href="#">About EMPG</a></li>
+                <li><a href="#">OLX Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">OLX for Businesses</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <ul>
+                <li><a href="#"><h4>OLX</h4></a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#"> Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <ul>
+            <li><a href="#"><h4>FOLLOW US</h4></a></li>
+                
+            </ul>
+            <div class="social_media_footer">
+                <ul>
+                    <li><a href=""><img src="assests/fb.svg" alt=""></a></li>
+                    <li><a href=""><img src="assests/twitter.svg" alt=""></a></li>
+                    <li><a href=""><img src="assests/playsotre.svg" alt=""></a></li>
+                    <li><a href=""><img src="assests/insta.svg" alt=""></a></li>
+
+                </ul>
+            </div>
+
+
+            <div class="imgs">
+                <ul>
+                    <li><a href=""><img src="assests/playstor.svg" alt=""></a></li>
+                <li><a href=""><img src="assests/google.svg" alt=""></a></li>
+                <li><a href=""><img src="assests/app.svg" alt=""></a></li>
+    
+                </ul>
+            </div>
+            
+        </div>
+      
+
+    </div>
+   
+    <div class="copy_right">
+          <div class="text_copy">
+         <p> <b>Free Classifieds in Pakistan</b> . © 2006-2022 OLX</p>
+          </div>  
+    </div>
+
+
+    
+    <!-- modal -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="olx_logo">
+                        <img src="assests/olx-black log.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h4>WELCOME TO OLX</h4>
+                        <p>The trusted community of buyers and sellers.</p>
+                    </div>
+                    <div class="social_media">
+                        <ul>
+                            <li>
+                                <a href="#"><span><img src="assests/g.svg" alt=""></span> Continue with Google</a>
+
+                            </li>
+
+                            <li>
+                                <a href="#"><span><img src="assests/f.svg" alt=""></span>Continue with Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#"><span><img src="assests/e.svg" alt=""></span>Continue with Email</a>
+
+                            </li>
+                            <li>
+                                <a href="#"><span><img src="assests/p.svg" alt=""></span>Continue with Phone</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>By continuing, you are accepting</p>
+                    <p> <a href="">OLX Terms of use</a> and <a href="">Privacy Policy</a></p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

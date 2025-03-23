@@ -1,0 +1,440 @@
+@font-face {
+    font-family:Open-Sans-Regular;
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family:Open-sans-light;
+    src: url(fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family:Pacifico;
+    src: url(fonts/Pacifico/Pacifico-Regular.ttf);
+}
+p {
+    font-size: 16px;
+    font-family: 'Open-Sans-Regular';
+}
+.top_navigation {
+    padding-top: 15px;
+    background-color: #f8f9fa;
+    /* border: 1px solid #2b2b2b; */
+    /* height: 38px; */
+}
+section.top_navigation span i {
+    margin-right: 10px;
+    color: #e7a331;
+    font-size: 16px;
+}
+.time_number {
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo {
+    width: 100%;
+    background-image: url(img/logo.png);
+    height: 188px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 17%;
+    top: -21px;
+}
+.time_div{
+    text-align: right;
+}
+.social_links ul li {
+    display: inline-block;
+}
+.number_div p a,.time_div p a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family:Open-Sans-Regular;
+    color: #2b2b2b;
+    font-weight: 700;
+}
+span.navbar-text {
+    width: 63%;
+}
+.secondry_nav {
+    background-color: #000
+    
+}
+.nav-item .nav-link{
+    color: #fff !important;
+    font-family:Open-Sans-Regular;
+    font-weight: 600;
+}
+ .banner {
+    background-color: #00000087;
+    background-image: url(img/banner.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.inner_heading {
+    margin: 150px auto;
+    text-align: center;
+    width: 60%;
+    animation: to-top 1s forwards;
+}
+.inner_heading h1 {
+    color: #fff;
+    font-size: 60px;
+    font-family: Pacifico;
+}
+.inner_heading p {
+    color: #fff; 
+}
+.inner_heading button,.about_content button,.recipie button{
+    padding: 10px;
+    background: #e7a331;
+    border: 1px solid #e7a331;
+    outline: none;
+    color: #fff;
+    width: 30%;
+    font-family:Open-Sans-Regular;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.inner_heading button:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.about_us{
+    padding: 80px;
+}
+.about_img img {
+    width: 100%;
+   
+}
+.about_content button:hover,.recipie button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.about_content {
+    margin-left: 10px;
+    animation: to-left 1s forwards;
+}
+.about_content h4,.box_content h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.about_content h2,.box_content h2{
+    font-family: Pacifico;
+}
+
+.about_us:after {
+    content: '';
+    /* width: 100%; */
+    height: 350px;
+    background-image: url(img/about-left-img.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0;
+    left: 82%;
+    top: 900px;
+    z-index: -1;
+}
+.recipie{
+    background-image: url(img/below-about-img.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin-top: 63px;
+    
+}
+.recipe_img img {
+    width: 100%;
+}
+.recipie{
+    padding: 80px;
+}
+.box_content {
+    margin: 0 auto;
+    width: 65%;
+    background: #ffffffb8;
+    padding: 50px;
+}
+.recipie .box_content::before {
+    position: absolute;
+    content: "";
+    background-image: url(img/plate.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 396px;
+    background-size: contain;
+    top: 4px;
+    /* right: 0; */
+    left: -19px;
+}
+.box_bg{
+    margin-top: 10px;
+    width: 100%;
+    height: 280px;
+    transition: all 0.5s ease;
+
+}
+.box-1{
+    background-image: url(img/food-1.jpg);
+    background-size: cover;
+}
+.box-2{
+    background-image: url(img/food-2.jpg);
+    background-size: cover;
+}
+.box-3{
+    background-image: url(img/food-3.jpg);
+    background-size: cover;
+}
+.box-4{
+    background-image: url(img/food-4.jpg);
+    background-size: cover;
+}
+.img_box {
+    padding: 20px;
+    margin: 36px 15px;
+    background: #010101c9;
+    color: #fff;
+    text-align: center;
+    display: none;
+    transition: .5s ease;
+    cursor: pointer;
+    
+}
+.img_box h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+.box_bg:hover .img_box{
+    display: block;
+    transition: all 0.5s ease;
+    
+}
+.img_box p.price {
+    font-size: 28px !important;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img_box button {
+    background-color: #e7a331;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.expirence{
+    padding: 30px;
+    padding-bottom: 65px;
+}
+.exp_text {
+    text-align: center;
+}
+.delicious{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    padding-bottom: 65px;
+}
+.delicious_content{
+    background-color: transparent;
+}
+.delicious_content::before{
+    background-image: none;
+}
+.delicious_content{
+    text-align: center;
+    color: #fff;
+}
+/* .d-img img {
+    width: 65%;
+}
+.d-img {
+    text-align: right;
+} */
+.d-img {
+    background-image: url(img/drink-menu.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 12px double #e7a331;
+}
+.d-img{
+    background-image: url(img/drink-menu.jpg);
+}
+.menu-box {
+    background: #fff;
+    margin-left: -60px;
+    margin-top: 30px;
+    height: 337px;
+    width: 100%;
+    padding: 28px;
+    animation: to-left 1s forwards;
+}
+
+.menu-box-2 {
+    margin: 30px auto;
+    /* margin-left: 56px; */
+    z-index: 9999;
+     animation: to-left 1s forwards;
+    
+}.ab-pos .d-img {
+    margin-left: -53px;
+    background-image: url(img/drink-2.jpg);
+    
+}
+.box3 .d-img{
+    background-image: url(img/derset.jpg);
+}
+.menu-box h4{
+    font-family:Pacifico;
+}
+.box2,.box3{
+    margin-top: 80px;
+}
+.mob-app{
+    background-image: url(img/mob-app-bg.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+section.mob-app {
+    padding: 30px;
+}
+.mob-img {
+    margin: 0 auto;
+    text-align: center;
+}
+.app_content {
+    margin-top: 65px;
+    color: #fff;
+}
+.app_content h2{
+    font-family:Pacifico;
+    color: #fff;
+}
+.app_content h4 {
+    font-family: serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-weight: 200;
+    font-size: 80px;
+}
+.app_content p {
+    font-size: 22px;
+}
+section.footer {
+    background: #1d1d1d;
+    height: auto;
+    padding: 80px 30px;
+    position: relative;
+}
+section.footer h4 {
+    font-family: Pacifico;
+    font-size: 30px;
+    color: #fff;
+}
+.social_icons ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.social_icons ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0px;
+    padding-left: 0;
+}
+.social_icons li a i {
+    color: #e7a331;
+}
+.form-group input,textarea#exampleFormControlTextarea1 {
+    background: #323232;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.form-group input:focus,.form-control {
+    background: #323232;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+button.btn.mb-2 {
+    background: #e7a331;
+    padding: 10px 10px;
+    color: #fff;
+    width: 50%;
+    font-family: 'Open-Sans-Regular';
+}
+section.footer p {
+    color: #fff;
+    line-height: 26px;
+    font-size: 16px;
+}
+.footer a {
+    color: #ffffff80;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.workingHours h6 {
+    color: #ffffff80;
+}
+.palte:before {
+    content: '';
+    background-image: url(img/plate.png);
+    background-size: cover;
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    transform: rotate(
+180deg);
+    right: 88%;
+    top: 25%;
+}
+
+.another-plate:after {
+    content: '';
+    background-image: url(img/plate-2.png);
+    background-size: cover;
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    transform: rotate( 
+180deg);
+    right: -127%;
+    top: 13%;
+}
+.fb{
+    margin-left: -46px;
+}
+
+
+@keyframes to-top {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes to-left {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

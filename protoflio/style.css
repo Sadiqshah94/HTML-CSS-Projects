@@ -1,0 +1,583 @@
+@font-face {
+    font-family:Roboto-Black ;
+    src: url(assests/fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family:Roboto-Bold ;
+    src: url(assests/fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:Roboto-Medium ;
+    src: url(assests/fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:Roboto-Regular ;
+    src: url(assests/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:Roboto-Light ;
+    src: url(assests/fonts/Roboto/Roboto-Light.ttf);
+}
+
+
+
+@font-face {
+    font-family:OpenSans-Medium ;
+    src: url(assests/fonts/OpenSans/OpenSans-Medium.ttf);
+}
+@font-face {
+    font-family:OpenSans-Regular ;
+    src: url(assests/fonts/OpenSans/OpenSans-Regular.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:Roboto-Medium ;
+    background: #111111;
+}
+p{
+    font-family:Roboto-Regular ;
+    color: #c1bfbfd6;
+}
+.main_wrapper {
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    background: #111111;
+    border-bottom: 3px solid #e9ecef2e;
+    background-image: url(assests/bg.PNG);
+    background-repeat: no-repeat;
+}
+.sadiq_intro{
+    width: 65%;
+    margin: 0 auto;
+}
+.main_img{
+    width: 30%;
+}
+.about {
+    width: 5%;
+}
+.main_img {
+    width: 30%;
+    z-index: 999;
+}
+.sadiq_intro {
+    padding-left: 70px;
+    width: 50%;
+}
+.description p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family:Roboto-Regular ;
+    color: #c1bfbfd6;
+}
+
+.main_heading h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family:Roboto-Bold ;
+}
+.main_heading h1{
+    position: relative;
+}
+.main_heading h1:before {
+    content: "";
+    position: absolute;
+    left: -53px;
+    top: 26px;
+    height: 4px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #ffb400;
+}
+
+.button_intro {
+    margin-top: 30px;
+}
+.button_intro a{
+    padding: 16px 70px 16px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #ffb400;
+    border-radius: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.button_intro a span {
+    position: absolute;
+    right: -1px;
+    top: 0px;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    color: #fff;
+    border-radius: 50%;
+    background: #ffb400;
+}
+   
+.main_img img {
+    width: 100%;
+    border-radius: 20px;
+}
+.main_heading span {
+    color: #ffb400;
+}
+.about ul li{
+    list-style: none;
+    position: relative;
+}
+.about ul li a {
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 20px 0;
+    border-radius: 50%;
+    background: #2b2a2a;
+    cursor: pointer;
+}
+.about ul li a svg {
+    width: 30px;
+    margin-left: 10px;
+}
+.about ul li ul {
+    color: #fff;
+    position: absolute;
+    right: 150%;
+    /* background: #000; */
+    text-align: center;
+    border-radius: 10px;
+    bottom: -28%;
+    right: 100%;
+}
+.about ul li ul li a{
+    text-align: center;
+    /* border: 1px solid #fff; */
+    padding: 0px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.about ul li ul li {
+    display: none;
+}
+.about ul li:hover ul li{
+    display: block;
+}
+.description {
+    padding: 10px;
+}
+
+/* home page  */
+
+.about_us{
+    background-image: unset;
+    padding: 0px 60px 120px 60px;
+
+}
+.abaout_sadiq {
+    width: 95%;
+    margin-top: -40px;
+}
+.heading {
+    width: 50%;
+    margin: 80px auto;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+.heading h1{
+    font-family:Roboto-Black ;
+    font-size: 56px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.heading h1 span {
+    color: #ffb400;
+}
+.heading .hide_text {
+    font-size: 120px;
+    font-family: 'Roboto-Black';
+    position: absolute;
+    top: 0;
+    right: 25%;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: translateY(-50%);
+    color: hsla(0,0%,100%,.07);
+}
+.inner_about {
+    width: 70%;
+    margin: 30px auto;
+}
+.inner_about p{
+
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.inner_about h1 {
+    color: #fff;
+    font-size: 50px;
+}
+.color{
+    color: #ffb400;
+}
+/* about end  */
+span.hide_text.ass {
+    right: 0%;
+}
+
+.projects{
+    width: 95%;
+}
+ul#pills-tab {
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+li.nav-item button {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: transparent;
+    color: #ffb400;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.assignment_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.assignments {
+    /* border: 1px solid #fff; */
+    width: 30%;
+    margin: 15px;
+    height: 300px;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #ffb300b7;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 20px;
+
+  }
+  .overlay2 {
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffb300b7;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .assignments:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+  .assignments:hover .overlay2 {
+  width: 100%;
+}
+
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .text ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.text ul li a i {
+    font-size: 30px;
+    color: #fff;
+}
+
+/* end assignemt  */
+.heading .contact{
+    right: 15%;
+}
+.inner_about ul li {
+    list-style: none;
+   
+}
+.inner_about ul li a{
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 20px 0;
+    border-radius: 50%;
+    background: #ffb30054;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+.inner_about ul li a:hover{
+    background-color: #ffb300b7;
+    transform: scale(1.2);
+    transition: .2s ease-in-out;
+}
+
+.inner_about ul {
+    display: flex;
+    justify-content: space-around;
+}
+.view_all_button {
+    text-align: center;
+}
+.mob-img{
+    display: none;
+}
+
+@media screen and (max-width:786px) {
+   
+    .main_heading h1 {
+        font-size: 30px;
+    }
+    .sadiq_intro,.description{
+        padding: 0px;
+    }
+    .description p,.inner_about p  {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .heading .hide_text {
+        font-size: 80px;
+        right: 16%;
+    }
+    .heading h1 {
+        font-size: 40px;
+    }
+    .inner_about h1 {
+        font-size: 30px;
+    }
+    .button_intro a{
+        font-size: 12px;
+    }
+    span.hide_text.ass {
+        right: -25%;
+    }
+    li.nav-item button {
+        font-size: 18px;
+    }
+    .assignment_wrapper{
+       flex-wrap: wrap;
+    }
+    .assignments {
+        width: 43%;
+    }
+    .inner_about ul{
+        padding: 0;
+    }
+    .heading .hide_text{
+        right: 0;
+    }
+    .about_us {
+        background-image: unset;
+        padding: 0px 60px 60px 60px;
+    }
+}
+@media screen and (max-width:425px) {
+    .main_wrapper{
+        background-image: none;
+        background-color:#111111 ;
+    }
+    .about {
+        display: none;
+    }
+    .main_wrapper{
+        flex-direction: column;
+    }
+    .main_img {
+        width: 100%;
+    }
+    .sadiq_intro
+    {
+        width: 100%;
+    }
+    .mob-img{
+        display: block;
+    }
+    .desk-img{
+        display: none;
+    }
+    .main_img {
+        display: flex;
+        justify-content: center;
+    }
+    .main_img img {
+        width: 70%;
+        border-radius: 60%;
+        border: 5px solid #f1b317;
+    }
+    .main_heading h1:before{
+        display: none;
+    }
+    .main_heading {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .sadiq_intro, .description{
+        text-align: center;
+    }
+    .description p, .inner_about p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .main_heading h1 {
+        font-size: 24px;
+    }
+    .button_intro a span {
+        display: none;
+}
+.button_intro a {
+    padding: 16px 45px 16px 35px;
+}
+.heading .hide_text {
+    font-size: 65px;
+}
+.heading h1 {
+    font-size: 30px;
+}
+.inner_about {
+    width: 100%;
+    margin: 35px 0px;
+    text-align: center;
+}
+.inner_about h1 {
+    font-size: 24px;
+}
+ul#pills-tab {
+   
+    margin-top: 40px;
+}
+.heading h1 {
+    font-size: 24px;
+}
+span.hide_text.ass {
+    right: -30%;
+    font-size: 50px;
+}
+.assignments {
+    width: 100%;
+}
+span.hide_text.contact {
+    right: -20%;
+}
+
+.inner_about ul li {
+    width: unset;
+    
+}
+.inner_about ul li a {
+    justify-content: center;
+    width: 0px;
+    height: 0px;
+   
+}
+
+.mob-header {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background: #f1b317;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+}
+.about.mob-header ul {
+    display: flex;
+    justify-content: space-between;
+}
+.about.mob-header ul  li {
+    margin-right: 30px;
+}
+.about ul li a {
+    width: 40px;
+    height: 40px;
+
+}
+.about ul li a svg {
+    width: 20px;
+    margin-left: 10px;
+}
+.about ul li ul li a{
+    display: none;
+}
+}
+@media screen and (max-width:320px) {
+    span.hide_text.ass {
+        right: -40%;
+        font-size: 41px;
+    }
+    .heading h1 {
+        font-size: 18px;
+    }
+    li.nav-item button {
+        font-size: 14px;
+        line-height: 10px;
+    }
+    
+}

@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: jameel-noori;
+    src: url(assests/fonts/jameel-noori-nastaleeq-kasheeda/Jameel-Noori-Nastaleeq-Kasheeda.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    src: url(assests/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: gandhara;
+    src: url(assests/fonts/gandhara-suls-regular/Gandhara-Suls-Regular.ttf);
+}
+@font-face {
+    font-family: Abbas;
+    src: url(assests/fonts/Abbas-Abbas/Abbas-Abbas.ttf);
+}
+
+
+.calender_main_heading h1 {
+    font-size: 50px;
+    font-family: jameel-noori;
+}
+.calender_main_heading {
+   
+    margin-bottom: 35px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+.calender_wrapper {
+    width: 90%;
+    margin: 45px auto;
+    
+    /* border: 1px solid; */
+   
+}
+.divided {
+    display: flex;
+    justify-content: space-between;
+}
+.left,.right{
+    width: 50%;
+    /* height: 900px; */
+    border-radius: 20px;
+}
+.left,.right {
+    padding: 20px;
+    /* height: 600px; */
+    /* border: 1px solid; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+ .duas{
+    text-align: center;
+}
+.khajoor{
+    text-align: center;
+}
+.khajoor img {
+    width: 500px;
+}
+.roza_iftar h3,.roza_rkhna h3 {
+    margin-top: 15px;
+    font-size: 22px;
+    /* color: #3973b9; */
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.roza_iftar h2,.roza_rkhna h2 {
+    background: #8ac642;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.smit_logo {
+    text-align: center;
+}
+.sehri, .iftar {
+    text-align: center;
+    margin-bottom: 22px;
+    font-family: Oswald;
+    letter-spacing: 5px;
+}
+
+.sehri span,.iftar span {
+    color: #3973b9;
+    font-weight: 900;
+    margin-left: 20px;
+    font-family: Oswald;
+    letter-spacing: normal;
+}
+.day h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #8ac642;
+    font-family: gandhara;
+}
+.day h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3973b9;
+}
+.first{
+    text-align: center;
+}
+.first h2 {
+    font-size: 30px;
+    color: #3973b9;
+}
+.first h3{
+font-size: 24px;
+    color: #cbc7c7;
+    margin-top: 10px;
+}
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 22px;
+}
+.right{
+    height: 745px;
+    overflow: scroll;
+    overflow-x: auto;
+}
+tr th {
+    padding: 3px;
+    font-family: Oswald;
+}
+tr th {
+    font-family: Oswald;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 18px;
+    color: #8ac642;
+    border-bottom: 4px solid #f1f1f1;
+}
+
+table {
+    border-collapse: collapse;
+}
+tr th {
+    border-bottom: 4px solid #f1f1f1;
+}
+tr.trs td {
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 2px solid #f1f1f1;
+    padding: 5px;
+    font-family: Oswald;
+}
+tr.trs:hover {
+    background: #f1f1f16e;
+}
+.right::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .right::-webkit-scrollbar-track {
+    background: #f1f1f1;        /* color of the tracking area */
+  }
+  
+  .right::-webkit-scrollbar-thumb {
+    background-color: #3973b9;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #f1f1f1;  /* creates padding around scroll thumb */
+  }
+  audio {
+    margin-bottom: 20px;
+    background: transparent;
+    border: 2px solid #8ac642;
+    border-radius: 30px;
+}
+
+.footer {
+    background: #3973b9;
+    padding: 10px 10px;
+    font-family: Oswald;
+    text-align: center;
+    font-size: 16px;
+}
+.footer p{
+    color: #fff;
+}
+.footer a{
+    color: rgb(218, 214, 214);
+    text-decoration: none;
+    
+}
+.header{
+   
+      /* box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;  */
+      padding: 10px 5px;
+
+}
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+   
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+}
+.nav ul li a {
+    color: #3973b9;
+    font-size: 25px;
+    font-family: jameel-noori;
+    text-decoration: none;
+    display: block;
+    margin-right: 18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+}
+.nav ul li a:hover{
+    background-color: #8ac642;
+    transition: .2s ease-in-out;
+    color: #fff;
+}
+.main_div {
+    width: 40%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /* background: linear-gradient(117.76deg, rgba(255, 255, 255, 0.7) -7.21%, rgba(255, 255, 255, 0.5) 118.08%); */
+    margin: 50px auto;
+    backdrop-filter: blur(3px);
+    /* border: 1px solid; */
+    /* height: 400px; */
+    /* box-shadow: rgb(152 147 147 / 2%) 0px 1px 3px 0px, rgb(13 14 14 / 49%) 0px 0px 0px 1px; */
+}
+.Quraan_img{
+    text-align: center;
+    padding: 20px;
+}
+.Quraan_img img {
+    width: 50%;
+}
+.ayaat{
+    padding: 20px;
+    text-align: center;
+}
+.ayaat q,.ayaat p {
+    font-size: 24px;
+    font-family: jameel-noori;
+    color: #3973b9;
+}
+.ayaat p {
+    color: #000;
+}
+.main_div h1{
+    color: #1a1717;;
+}
+.front{
+    background-image: url(assests/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button_view {
+    text-align: center;
+    border: 1px solid;
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background-color: #FF6041;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    padding: 15px 13px;
+    border-radius: 40px;
+    margin-bottom: 24px;
+}
+.button_view:hover{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+    transition: .2s ease-in-out;
+    background-color: transparent;
+}
+.button_view:hover a{
+    color: #000;
+}
+.button_view a {
+    text-decoration: none;
+    color: #fff;
+    font-family: jameel-noori;
+    display: block;
+}
+.buttons{
+    display: flex;
+}
+.comming_Soon.calender_main_heading {
+    margin-top: 66px;
+}
+.inner{
+    width: 25%;
+    background-color: #3973b9;
+}
+@media screen and (max-width:1024px) {
+   .calender_wrapper
+   {
+       width: 100%;
+   }
+}
+
+@media screen and (max-width:768px) {
+    .main_div {
+        width: 80%;
+    }
+    .divided
+    {
+        display: block;
+        justify-content: center;
+    }
+    .left, .right{
+        margin: 50px auto;
+        width: 90%;
+    }
+ }
+ @media screen and (max-width: 425px){
+.main_div {
+    width: 98%;
+}
+.main_div .calender_main_heading h2 {
+    font-size: 18px;
+}
+.Quraan_img img {
+    width: 66%;
+}
+.ayaat p {
+    color: #000;
+    font-size: 22px;
+}
+.buttons{
+    display: block;
+    justify-content: center;
+}
+.button_view {
+    width: 50%;
+}
+ }
+
+ @media screen and (max-width:320px) {
+    .nav ul {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin-bottom: 30px;
+    }
+    .smit_logo img {
+        width: 150px;
+    }
+    .calender_main_heading h1 {
+        font-size: 40px;
+    }
+    .calender_main_heading h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .day h2 {
+        font-size: 40px;
+    }
+    .day h3 {
+        font-size: 26px;
+ }
+ .roza_iftar h3, .roza_rkhna h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+audio {
+    width: 88%;
+ }
+}
